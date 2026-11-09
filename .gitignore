@@ -1,0 +1,17 @@
+# KiCad - archivos de bloqueo
+*.lck
+*.lck~
+
+# KiCad - preferencias locales
+*.kicad_prl
+
+# KiCad - respaldos e historial
+.history/
+*-backups/
+*.kicad_sch-bak
+*.kicad_pcb-bak
+
+# Archivos temporales
+*.tmp
+*.bak
+*~

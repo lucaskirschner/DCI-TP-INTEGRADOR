@@ -1,0 +1,19 @@
+USB3_ETH_Board
+Copyright (c) 2026 Lucas Kirschner
+
+This project's original hardware design files are licensed under the
+CERN Open Hardware Licence Version 2 - Strongly Reciprocal
+(CERN-OHL-S-2.0).
+
+SPDX-License-Identifier: CERN-OHL-S-2.0
+
+Official full licence text:
+https://ohwr.org/cern_ohl_s_v2.txt
+
+SPDX licence text:
+https://raw.githubusercontent.com/spdx/license-list-data/main/text/CERN-OHL-S-2.0.txt
+
+This notice applies only to original project materials for which the
+copyright holder has the right to grant this licence. Third-party
+materials, including Microchip documentation and reference designs,
+remain subject to their respective copyright and licence terms.

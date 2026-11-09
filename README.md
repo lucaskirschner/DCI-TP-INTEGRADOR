@@ -1,44 +1,49 @@
-## Trabajo práctico final de la asignatura DCI ##
-Este repositorio contiene el trabajo práctico final para la asignatura de Diseño de Circuitos Impresos de la carrera de posgrado de FIUBA.
+# USB3_ETH_Board
 
-* Autor: XXXXCOMPLETARXXXX
-* Título corto del trabajo:  XXXXCOMPLETARXXXX
-* Descripción:  XXXXCOMPLETARXXXX (Debe aclarar la función y el objetivo del cto.)
-* Cursada: OCT-NOV-DIC 2026
+Trabajo práctico final de la asignatura **Diseño de Circuitos Impresos (DCI)** de la **Carrera de Especialización en Sistemas Embebidos** de la Facultad de Ingeniería de la Universidad de Buenos Aires (FIUBA).
 
+- **Autor:** Ing. Lucas Kirschner
+- **Título:** Adaptador USB 3.1 a Gigabit Ethernet
+- **Cursada:** OCT-NOV-DIC 2026
 
-## Licencia de este trabajo ##
-XXXMENCIONAR ACÁ LA LICENCIAXXX (Editar este párrafo) 
-Y además colcar el archivo de texto de la misma en el directorio raíz.
-Para este TP se pide que la licencia sea de hardware abierto.
-Ver la sección "What license should I use?": https://www.oshwa.org/faq/
+## Descripción
 
-## Estructura del TP FINAL ##
+**USB3_ETH_Board** es una placa adaptadora que permite implementar una interfaz de red **Gigabit Ethernet** a partir de una conexión **USB 3.1**, utilizando el controlador **LAN7800**.
 
-Se propone y se pide utilizar la siguiente estructura.
+El objetivo del trabajo es desarrollar una placa de circuito impreso multicapa que integre interfaces de alta velocidad USB y Gigabit Ethernet, aplicando criterios de diseño relacionados con la integridad de señal, impedancia controlada, ruteo de pares diferenciales, continuidad de los caminos de retorno, distribución de alimentación y compatibilidad electromagnética.
 
-* doc: Toda la información sobre el circuito, principalmente de autoría o procesamiento propio. Por ejemplo:
-  * Notas de ingeniería propias.
-  * Notas de aplicación propias.
-  * Estudios previos, estado del arte, resumen de las investigaciones.
-  * Notas con cálculos.
-  * Dibujos adicionales.
-  * Fotos de los prototipos.
-  * Presupuestos, cotizaciones.
-* info: Toda la iformación recolectada, principalmente de terceros, como por ejemplo:
-  * Hojas de datos.
-  * Notas de aplicación.
-  * Info de productos comerciales.
-  * Info en internet.
-* pcb: Archivos de diseño esquemático y pcb.
+El diseño se desarrolla sobre una **PCB de 4 capas** utilizando **KiCad**.
 
-Dependiendo la magnitud del proyecto, tendremos más o menos información en estos directorios. 
-Revisar los README.md en cada directorio para conocer las pautas de cada uno para este TP.
+## Estructura del repositorio
 
-NOTA: El alumno puede y debe borrar de este archivo todo lo que considere necesario, por ejemplo las aclaraciones del docente y esta misma nota.
+```text
+USB3_ETH_Board/
+├── doc/
+│   └── propuesta/
+│       └── README.md
+├── info/
+├── pcb/
+├── .gitignore
+├── LICENSE
+└── README.md
+```
 
-## Obligatorios para el TP Final ##
-* doc/propuesta/README.md (con textos y links, formato markdown, a imágenes que deben estar en el mismo repo. Las imágenes son las que se piden en las pautas de TP).
-* info/*.pdf (Se piden solo las hojas de datos de los componentes relevantes como circuitos integrados, conectores particulares, módulos, etc. No es necesario poner hojas de pasivos, discretos comunes, conectores estándar.)
-* pcb/* (Acá va el proyecto KiCad, modelos 3D, bibliotecas particulares y archivos generados como BOM, gerbers, etc.). EVITE subir al git archivos temporales de KiCad. Se recomienda usar un .gitignore adecuado.
-* El alumnos es libre de agregar otras cosas, pero siempre tenga en cuenta que el repositorio es público. Evitar colocar información personal o documentación confidencial. 
+### `doc/`
+
+Documentación elaborada durante el proyecto, incluyendo la propuesta del trabajo, notas de ingeniería, cálculos, criterios de diseño, análisis y documentación complementaria.
+
+La propuesta del trabajo se encuentra en [`doc/propuesta/README.md`](doc/propuesta/README.md).
+
+### `info/`
+
+Documentación externa utilizada como referencia durante el desarrollo, principalmente hojas de datos de componentes relevantes y notas de aplicación.
+
+### `pcb/`
+
+Archivos de diseño electrónico desarrollados en KiCad, incluyendo esquemático, diseño de PCB, bibliotecas particulares, modelos 3D y archivos de fabricación generados.
+
+## Licencia
+
+Este proyecto se distribuye como **hardware abierto** bajo la **CERN Open Hardware Licence Version 2 – Strongly Reciprocal (CERN-OHL-S-2.0)**.
+
+Los términos completos de la licencia deben incluirse en el archivo [`LICENSE`](LICENSE) del directorio raíz del repositorio.
