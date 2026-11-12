@@ -88,7 +88,7 @@
 			)
 		)
 		(symbol "MIC5528-3.3V_0_1"
-			(pin output line
+			(pin power_out line
 				(at 17.78 8.89 180)
 				(length 2.54)
 				(name "VOUT"
@@ -99,24 +99,6 @@
 					)
 				)
 				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 17.78 6.35 180)
-				(length 2.54)
-				(name "VOUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -178,7 +160,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -2.54 8.89 0)
 				(length 2.54)
 				(name "VIN"
@@ -196,7 +178,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at -2.54 1.27 0)
 				(length 2.54)
 				(name "EPAD"
@@ -225,6 +207,24 @@
 				)
 				(fill
 					(type background)
+				)
+			)
+			(pin passive line
+				(at 17.78 6.35 180)
+				(length 2.54)
+				(name "VOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 		)

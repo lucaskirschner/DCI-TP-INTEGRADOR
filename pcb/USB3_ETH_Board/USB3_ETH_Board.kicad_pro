@@ -8,7 +8,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "Rev. A"
+      "sch_revision": "Rev. B"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -234,7 +234,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "same_local_global_power": "warning",
@@ -430,7 +430,7 @@
         "uuid": "4c9bb675-5772-48b6-868d-0eecda0e4123"
       }
     ],
-    "used_designators": "#PWR1-63,C1-34,D1,FB1-2,FID1-6,H1-2,J1-4,L1,P1,R1-13,TP1-3,U1-4,Y1-2",
+    "used_designators": "#FLG1-6,#PWR1-65,C1-34,D1,FB1-2,FID1-6,H1-2,J1-4,L1,P1,R1-13,TP1-3,U1-4,Y1-2",
     "variants": []
   },
   "sheets": [

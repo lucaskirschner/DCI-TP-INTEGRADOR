@@ -269,7 +269,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -2.54 35.56 0)
 				(length 2.54)
 				(name "VBUS"
@@ -287,7 +287,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -2.54 31.75 0)
 				(length 2.54)
 				(name "D-"
@@ -305,7 +305,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -2.54 29.21 0)
 				(length 2.54)
 				(name "D+"
@@ -323,7 +323,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -2.54 5.08 0)
 				(length 2.54)
 				(name "GND"
@@ -341,7 +341,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at -2.54 22.86 0)
 				(length 2.54)
 				(name "SSRX-"
@@ -359,7 +359,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at -2.54 17.78 0)
 				(length 2.54)
 				(name "SSRX+"
@@ -395,7 +395,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -2.54 11.43 0)
 				(length 2.54)
 				(name "SSTX-"
@@ -413,7 +413,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -2.54 8.89 0)
 				(length 2.54)
 				(name "SSTX+"
