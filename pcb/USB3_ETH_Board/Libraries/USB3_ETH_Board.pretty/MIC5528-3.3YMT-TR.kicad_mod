@@ -1,0 +1,201 @@
+(footprint "MIC5528-3.3YMT-TR"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "TDFN, 6 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5528.pdf)")
+	(tags "TDFN NoLead")
+	(property "Reference" "REF**"
+		(at 0 -1.55 0)
+		(layer "F.SilkS")
+		(uuid "975fa29d-7a01-4007-938b-a7df649cac0d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TDFN-6-1EP_1.2x1.2mm_P0.4mm_EP0.3x0.94mm"
+		(at 0 1.55 0)
+		(layer "F.Fab")
+		(uuid "30bdc68f-3920-416f-b5c3-c8bde0eada0a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ecdc9ae6-241a-40da-8cad-51c86ac76683")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3e4f54ca-2669-461b-887c-0c2254b26d11")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "package/no_lead"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1653c61d-7533-4f4c-b80a-bb785af4973c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.53 -0.81)
+		(end 0.71 -0.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1d6289ce-1315-44b4-9c30-2fe87548c4cd")
+	)
+	(fp_line
+		(start 0.71 0.81)
+		(end -0.71 0.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b498954c-6372-437c-8ead-c86e0af9f07c")
+	)
+	(fp_poly
+		(pts
+			(xy -0.77 -0.72) (xy -1.05 -0.72) (xy -0.77 -1)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "01af3190-907c-4251-ac0d-3d4493ac80ab")
+	)
+	(fp_rect
+		(start -0.85 -0.85)
+		(end 0.85 0.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "7b1708d1-0361-4454-be16-fff3f1468a7a")
+	)
+	(fp_poly
+		(pts
+			(xy -0.3 -0.6) (xy 0.6 -0.6) (xy 0.6 0.6) (xy -0.6 0.6) (xy -0.6 -0.3)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "50c76652-9981-4301-a097-38f95d92ad14")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "d19da478-fea6-4d0d-ab79-34a44cdab5a1")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.04)
+			)
+		)
+	)
+	(pad "" smd roundrect
+		(at 0 0)
+		(size 0.24 0.76)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "ecf70607-be11-4b57-a5f7-647c2ed916c3")
+	)
+	(pad "1" smd roundrect
+		(at -0.475 -0.4)
+		(size 0.25 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "85ba9cff-ac85-48ca-9fb0-5b0add35c6e9")
+	)
+	(pad "2" smd roundrect
+		(at -0.475 0)
+		(size 0.25 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "9f10df25-87c2-46c4-97ad-558c8e9c61e0")
+	)
+	(pad "3" smd roundrect
+		(at -0.475 0.4)
+		(size 0.25 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "3715b31f-dc6d-4b6e-a744-054d8f4962ec")
+	)
+	(pad "4" smd roundrect
+		(at 0.475 0.4)
+		(size 0.25 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "c3119509-7746-4a8b-a80f-c1db22f15d6a")
+	)
+	(pad "5" smd roundrect
+		(at 0.475 0)
+		(size 0.25 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "ae134541-1dfa-4ad2-aff4-06d73532ea89")
+	)
+	(pad "6" smd roundrect
+		(at 0.475 -0.4)
+		(size 0.25 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "c845a69c-a673-4464-996e-d817a7147726")
+	)
+	(pad "7" smd rect
+		(at 0 0)
+		(size 0.3 0.94)
+		(property pad_prop_heatsink)
+		(layers "F.Cu" "F.Mask")
+		(zone_connect 2)
+		(uuid "f558257c-1fba-4922-b2a4-7e4848b08884")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/3DModels/MIC5528-3.3YMT-TR.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

@@ -9377,7 +9377,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 46.99 174.9552 0)
 			(hide yes)
 			(show_name no)
@@ -9458,7 +9458,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 221.9452 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -9695,7 +9695,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
 			(at 156.21 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -9772,7 +9772,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
 			(at 165.1 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -9847,7 +9847,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "USB3_ETH_Board:692112030100"
 			(at 120.65 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -10029,7 +10029,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 191.4652 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -10187,7 +10187,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 115.062 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -10268,7 +10268,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 32.512 33.02 90)
 			(hide yes)
 			(show_name no)
@@ -10428,7 +10428,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
 			(at 165.1 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -10657,7 +10657,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 108.712 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -10817,7 +10817,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
 			(at 156.21 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -10892,7 +10892,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 265.1252 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -11205,7 +11205,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 258.7752 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -11285,7 +11285,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "USB3_ETH_Board:MIC5528-3.3YMT-TR"
 			(at 190.754 133.096 0)
 			(hide yes)
 			(show_name no)
@@ -11383,7 +11383,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 44.1452 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -11540,7 +11540,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 184.15 128.778 90)
 			(hide yes)
 			(show_name no)
@@ -11621,7 +11621,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 271.4752 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -11702,7 +11702,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 101.6 149.5552 0)
 			(hide yes)
 			(show_name no)
@@ -11781,7 +11781,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "USB3_ETH_Board:VLF302515MT-3R3M"
 			(at 194.31 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -12016,7 +12016,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 32.512 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -12482,7 +12482,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "USB3_ETH_Board:RJMG2012211A0FR"
 			(at 58.928 138.684 0)
 			(hide yes)
 			(show_name no)
@@ -12811,7 +12811,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 35.2552 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -12892,7 +12892,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 271.4752 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -13127,7 +13127,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 22.5552 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -13210,7 +13210,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
 			(at 165.1 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -13285,7 +13285,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 271.4752 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -13521,7 +13521,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 236.982 140.97 90)
 			(hide yes)
 			(show_name no)
@@ -13679,7 +13679,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 130.5052 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -13992,7 +13992,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 33.782 133.35 90)
 			(hide yes)
 			(show_name no)
@@ -14227,7 +14227,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 252.4252 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -14385,7 +14385,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 28.9052 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -14532,7 +14532,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Crystal_GND24"
+		(property "Value" "Crystal"
 			(at 35.56 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -14543,7 +14543,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 35.56 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -14652,7 +14652,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 28.702 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -14734,7 +14734,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 162.052 140.97 90)
 			(hide yes)
 			(show_name no)
@@ -15125,7 +15125,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
 			(at 165.1 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -15200,7 +15200,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 265.1252 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -15281,7 +15281,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 258.7752 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -15362,7 +15362,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 232.1052 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -15519,7 +15519,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "USB3_ETH_Board:RJMG2012211A0FR"
 			(at -11.176 150.622 0)
 			(hide yes)
 			(show_name no)
@@ -15695,7 +15695,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 208.28 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -15787,7 +15787,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 252.4252 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -15868,7 +15868,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 28.9052 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -16106,7 +16106,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 248.92 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -16206,7 +16206,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 268.732 140.97 90)
 			(hide yes)
 			(show_name no)
@@ -16365,7 +16365,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 164.7952 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -16676,7 +16676,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "USB3_ETH_Board:LAN7800-VSX"
 			(at 144.78 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -16976,7 +16976,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "USB3_ETH_Board:RJMG2012211A0FR"
 			(at -1.016 150.622 0)
 			(hide yes)
 			(show_name no)
@@ -17152,7 +17152,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 157.1752 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -17388,7 +17388,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 232.1052 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -17546,7 +17546,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 103.8352 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -17629,7 +17629,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
 			(at 156.21 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -17782,7 +17782,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 131.318 45.72 90)
 			(hide yes)
 			(show_name no)
@@ -17864,7 +17864,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 200.3552 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -17943,7 +17943,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 111.76 170.688 90)
 			(hide yes)
 			(show_name no)
@@ -18178,7 +18178,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 265.1252 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -18335,7 +18335,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "USB3_ETH_Board:LAN7800-VSX"
 			(at 55.88 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -18713,7 +18713,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 41.6052 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -18871,7 +18871,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "USB3_ETH_Board:5003"
 			(at 186.69 127 0)
 			(hide yes)
 			(show_name no)
@@ -18949,7 +18949,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
 			(at 107.95 174.9552 0)
 			(hide yes)
 			(show_name no)
@@ -19030,7 +19030,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 28.702 33.02 90)
 			(hide yes)
 			(show_name no)
@@ -19189,7 +19189,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 206.502 140.97 90)
 			(hide yes)
 			(show_name no)
@@ -19271,7 +19271,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 23.622 133.35 90)
 			(hide yes)
 			(show_name no)
@@ -19352,7 +19352,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "USB3_ETH_Board:5003"
 			(at 208.28 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -19584,7 +19584,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 258.7752 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -19819,7 +19819,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 211.7852 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -20131,7 +20131,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 252.4252 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -20212,7 +20212,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 201.6252 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -20371,7 +20371,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 191.4652 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -20761,7 +20761,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "USB3_ETH_Board:5003"
 			(at 97.79 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -20839,7 +20839,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 101.6 144.4752 0)
 			(hide yes)
 			(show_name no)
@@ -21078,7 +21078,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
 			(at 156.21 175.26 0)
 			(hide yes)
 			(show_name no)

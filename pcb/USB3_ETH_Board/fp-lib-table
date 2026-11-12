@@ -1,0 +1,10 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Footprints") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Footprints.pretty") (options "") (descr ""))
+	(lib (name "USB3_ETH_Board") (type "KiCad") (uri "${KIPRJMOD}/Libraries/USB3_ETH_Board.pretty") (options "") (descr ""))
+	(lib (name "USB3_ETH_Board") (type "KiCad") (uri "${KIPRJMOD}/Libraries/USB3_ETH_Board.pretty") (options "") (descr ""))
+	(lib (name "USB3_ETH_Board") (type "KiCad") (uri "${KIPRJMOD}/Libraries/USB3_ETH_Board.pretty") (options "") (descr ""))
+	(lib (name "USB3_ETH_Board") (type "KiCad") (uri "${KIPRJMOD}/Libraries/USB3_ETH_Board.pretty") (options "") (descr ""))
+	(lib (name "USB3_ETH_Board") (type "KiCad") (uri "${KIPRJMOD}/Libraries/USB3_ETH_Board.pretty") (options "") (descr ""))
+	(lib (name "USB3_ETH_Board") (type "KiCad") (uri "${KIPRJMOD}/Libraries/USB3_ETH_Board.pretty") (options "") (descr ""))
+)
