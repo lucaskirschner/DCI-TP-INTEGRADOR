@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "USB3_ETH_Board")
-		(date "2026-11-11")
-		(rev "Rev. B")
+		(date "2026-11-12")
+		(rev "Rev. C")
 		(company "FIUBA - CESE")
 		(comment 1 "Diseño de Circuitos Impresos - Trabajo Práctico Final")
 		(comment 2 "Autor: Ing. Lucas Kirschner")
@@ -9346,87 +9346,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 50.8 173.99 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "012bafe5-f709-4d4b-984a-c4a825e64a7a")
-		(property "Reference" "C31"
-			(at 45.72 172.466 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 50.038 177.8 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 46.99 174.9552 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 50.8 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c1933fcd-dedd-4aa5-b91e-ca32559c5f21")
-		)
-		(pin "2"
-			(uuid "cf1fce4e-4731-430f-9726-3c6f2904501e")
-		)
-		(instances
-			(project "USB3_ETH_Board"
-				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 220.98 64.77 0)
 		(unit 1)
 		(body_style 1)
@@ -9436,7 +9355,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "03dcb8a8-c609-4494-b2b6-60d2335bbabc")
-		(property "Reference" "C13"
+		(property "Reference" "C26"
 			(at 223.774 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9480,7 +9399,95 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 100V Capacitores cerámicos X7R 0805"
+			(at 220.98 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM21BR72A104KA37L"
+			(at 220.98 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 220.98 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 220.98 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 220.98 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 220.98 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 220.98 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 220.98 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "490-4789-2-ND"
 			(at 220.98 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -9500,7 +9507,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C13")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -9517,7 +9524,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "09834cce-5957-4eb8-bd01-9d55cc630201")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR034"
 			(at 257.81 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -9577,7 +9584,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR050")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -9594,7 +9601,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0cb5077a-703e-4ee9-b0ce-e0f26cdbe2b5")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR018"
 			(at 116.84 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -9654,7 +9661,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR024")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -9718,6 +9725,94 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
+			(at 156.21 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 156.21 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 156.21 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 156.21 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 156.21 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 156.21 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 156.21 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 156.21 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" ""
 			(at 156.21 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -9805,6 +9900,94 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 165.1 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 165.1 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 165.1 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 165.1 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 165.1 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 165.1 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 165.1 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" ""
+			(at 165.1 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
@@ -9869,8 +10052,96 @@
 				)
 			)
 		)
-		(property "Description" "USB 3.0 A connector"
+		(property "Description" "CONN PLUG USB3.0 TYPEA 9P SMD RA"
 			(at 132.588 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "692112030100"
+			(at 116.84 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 116.84 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 116.84 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Würth Elektronik"
+			(at 116.84 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 116.84 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 116.84 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 116.84 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "732-3157-ND"
+			(at 116.84 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9930,7 +10201,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "13affe31-10e0-4af4-a833-b4024d5808a8")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR043"
 			(at 25.4 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -9990,7 +10261,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR059")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -10007,7 +10278,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "140d8175-815b-4fcf-b9fd-3e04bd6d0937")
-		(property "Reference" "C10"
+		(property "Reference" "C6"
 			(at 193.294 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10051,7 +10322,95 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "1 µF ±10% 16V Capacitores cerámicos X7R 0805"
+			(at 190.5 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM21BR71C105KA58L"
+			(at 190.5 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 190.5 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 190.5 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 190.5 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 190.5 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 190.5 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 190.5 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "490-14437-2-ND"
 			(at 190.5 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -10071,7 +10430,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C10")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -10088,7 +10447,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1508ebd5-9cf2-4b84-80ee-6974bd4bd139")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR029"
 			(at 190.5 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -10148,7 +10507,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR031")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -10165,7 +10524,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "17f901fd-cd10-427e-8829-fb5c2c083a99")
-		(property "Reference" "R10"
+		(property "Reference" "R12"
 			(at 118.364 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10209,7 +10568,95 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 10K OHM 1% 1/8W 0805"
+			(at 116.84 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805FR-0710KL"
+			(at 116.84 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 116.84 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 116.84 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 116.84 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 116.84 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 116.84 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 116.84 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "311-10.0KCRTR-ND"
 			(at 116.84 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -10229,7 +10676,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "R10")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -10246,7 +10693,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1932ae6b-143d-460d-84df-b33b348f5e0f")
-		(property "Reference" "R6"
+		(property "Reference" "R10"
 			(at 36.068 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10290,7 +10737,95 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 10K OHM 1% 1/8W 0805"
+			(at 34.29 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805FR-0710KL"
+			(at 34.29 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 34.29 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 34.29 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 34.29 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 34.29 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 34.29 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 34.29 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "311-10.0KCRTR-ND"
 			(at 34.29 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -10310,7 +10845,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "R6")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -10327,7 +10862,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1bb5d243-b9b6-40af-9cb7-713de0685240")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR01"
 			(at 30.48 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -10387,7 +10922,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR016")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -10461,6 +10996,94 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 165.1 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 165.1 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 165.1 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 165.1 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 165.1 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 165.1 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 165.1 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" ""
+			(at 165.1 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
@@ -10481,7 +11104,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1d4a7a1f-5633-49f5-9893-bf8494af820b")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR044"
 			(at 35.56 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -10541,7 +11164,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR060")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -10558,7 +11181,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e13e459-dc58-4e6f-8b71-ea06aa69bcc6")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR055"
 			(at 172.72 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -10618,7 +11241,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR04")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -10635,7 +11258,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "238d6889-f105-4761-be12-9d358de25071")
-		(property "Reference" "R9"
+		(property "Reference" "R1"
 			(at 112.014 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10679,7 +11302,95 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 2K OHM 1% 1/8W 0805"
+			(at 110.49 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805FR-072KL"
+			(at 110.49 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 110.49 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 110.49 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 110.49 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 110.49 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 110.49 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 110.49 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "311-2.00KCRTR-ND"
 			(at 110.49 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -10699,7 +11410,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "R9")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -10716,7 +11427,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "24556fce-72b1-4765-af0d-422686c4fdd5")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR024"
 			(at 27.94 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -10776,7 +11487,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR020")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -10850,6 +11561,94 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 156.21 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 156.21 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 156.21 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 156.21 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 156.21 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 156.21 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 156.21 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" ""
+			(at 156.21 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
@@ -10870,7 +11669,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "275ba948-7f9e-47ea-93ce-cf817f35ae99")
-		(property "Reference" "C21"
+		(property "Reference" "C3"
 			(at 259.334 62.484 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10914,7 +11713,95 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 100V Capacitores cerámicos X7R 0805"
+			(at 264.16 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM21BR72A104KA37L"
+			(at 264.16 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 264.16 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 264.16 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 264.16 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 264.16 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 264.16 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 264.16 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "490-4789-2-ND"
 			(at 264.16 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -10934,7 +11821,176 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C21")
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 50.8 173.99 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2d3de443-58a3-454e-a0f1-462e70741e68")
+		(property "Reference" "C30"
+			(at 45.72 172.466 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 50.038 177.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
+			(at 46.99 174.9552 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 1000PF 2KV X7R 1812"
+			(at 50.8 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GR443QR73D102KW01L"
+			(at 50.8 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 50.8 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 50.8 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 50.8 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 50.8 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 50.8 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 50.8 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "490-12531-2-ND"
+			(at 50.8 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1d28ee76-7bfd-4dd9-89c8-fc2bec79df8b")
+		)
+		(pin "2"
+			(uuid "fda3111e-86f8-4077-82f6-52fb3dda463a")
+		)
+		(instances
+			(project "USB3_ETH_Board"
+				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -10951,7 +12007,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2deb95bd-7cae-4805-9da3-1e26c0c529ca")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR020"
 			(at 210.82 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -11011,7 +12067,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR035")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -11028,7 +12084,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2ffad14b-7885-4afa-bf83-ed0b1c337025")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR016"
 			(at 264.16 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -11088,7 +12144,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR046")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -11106,7 +12162,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31e07af6-6f62-4651-b9f6-52a9290b40ec")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR065"
 			(at 55.88 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -11166,7 +12222,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR057")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -11183,7 +12239,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3234666e-4783-48e7-9e65-3a7cb72eed93")
-		(property "Reference" "C24"
+		(property "Reference" "C14"
 			(at 252.984 84.074 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11227,7 +12283,95 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 100V Capacitores cerámicos X7R 0805"
+			(at 257.81 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM21BR72A104KA37L"
+			(at 257.81 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 257.81 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 257.81 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 257.81 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 257.81 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 257.81 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 257.81 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "490-4789-2-ND"
 			(at 257.81 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -11247,7 +12391,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C24")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -11309,7 +12453,95 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC REG LINEAR 3.3V 500MA 6-TDFN"
+			(at 176.53 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MIC5528-3.3YMT-TR"
+			(at 176.53 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 176.53 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 176.53 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Microchip Technology"
+			(at 176.53 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 176.53 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 176.53 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 176.53 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "576-4766-2-ND"
 			(at 176.53 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -11361,7 +12593,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "39023fe2-334b-4047-96ca-474c8177c749")
-		(property "Reference" "C6"
+		(property "Reference" "C16"
 			(at 45.974 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11405,7 +12637,95 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "16 pF ±5% 100V Capacitores cerámicos C0G 0805"
+			(at 43.18 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GQM2195C2A160JB01D"
+			(at 43.18 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 43.18 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 43.18 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 43.18 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 43.18 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 43.18 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 43.18 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "GQM2195C2A160JB01D-ND"
 			(at 43.18 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -11425,7 +12745,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C6")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -11442,7 +12762,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a8d1dab-0ba1-421a-b219-5d8d5b0f0022")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR056"
 			(at 199.39 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -11502,7 +12822,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR08")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -11519,7 +12839,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3b859ffd-cf7b-48f9-8380-49916b5cea15")
-		(property "Reference" "FB1"
+		(property "Reference" "FB2"
 			(at 184.658 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11562,8 +12882,96 @@
 				)
 			)
 		)
-		(property "Description" "Ferrite bead"
+		(property "Description" "FERRITE BEAD 120 OHM 0805 1LN"
 			(at 184.15 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "BLM21BB121SN1D"
+			(at 184.15 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 184.15 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 184.15 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 184.15 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 184.15 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 184.15 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 184.15 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "490-1042-2-ND"
+			(at 184.15 127 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11582,7 +12990,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "FB1")
+					(reference "FB2")
 					(unit 1)
 				)
 			)
@@ -11599,7 +13007,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3feb85b3-a5ae-415f-b675-831cd1f33431")
-		(property "Reference" "C22"
+		(property "Reference" "C4"
 			(at 265.684 62.484 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11643,7 +13051,95 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 100V Capacitores cerámicos X7R 0805"
+			(at 270.51 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM21BR72A104KA37L"
+			(at 270.51 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 270.51 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 270.51 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 270.51 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 270.51 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 270.51 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 270.51 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "490-4789-2-ND"
 			(at 270.51 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -11663,7 +13159,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C22")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -11680,7 +13176,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "41ae32c5-45a8-4720-b08f-f58f0bbed5d7")
-		(property "Reference" "C34"
+		(property "Reference" "C25"
 			(at 100.33 147.066 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11724,8 +13220,96 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 100V Capacitores cerámicos X7R 0805"
 			(at 105.41 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM21BR72A104KA37L"
+			(at 105.41 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 105.41 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 105.41 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 105.41 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 105.41 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 105.41 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 105.41 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "490-4789-2-ND"
+			(at 105.41 148.59 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11744,7 +13328,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C34")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -11771,7 +13355,7 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "3,3 uH"
 			(at 194.31 62.484 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11803,8 +13387,96 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "FIXED IND 3.3UH 2.25A 72 MOHM"
 			(at 194.31 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "VLF302515MT-3R3M"
+			(at 194.31 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 194.31 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 194.31 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "TDK"
+			(at 194.31 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 194.31 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 194.31 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 194.31 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "445-9631-2-ND"
+			(at 194.31 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11840,7 +13512,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "42d6d1b2-70e7-4240-a91e-a38ccb172011")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR036"
 			(at 270.51 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -11900,7 +13572,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR052")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -11917,7 +13589,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "46208254-9b3b-4623-9b41-37974f957a26")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR050"
 			(at 238.76 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -11977,7 +13649,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR011")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -11994,7 +13666,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "46328450-a352-463a-95ac-e6beebd973af")
-		(property "Reference" "R7"
+		(property "Reference" "R9"
 			(at 35.814 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12038,7 +13710,95 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 10K OHM 1% 1/8W 0805"
+			(at 34.29 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805FR-0710KL"
+			(at 34.29 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 34.29 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 34.29 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 34.29 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 34.29 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 34.29 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 34.29 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "311-10.0KCRTR-ND"
 			(at 34.29 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -12058,7 +13818,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "R7")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -12075,7 +13835,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4813f9b5-2bdd-43f8-81cf-6e4e3b27253a")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR057"
 			(at 208.28 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -12135,7 +13895,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR09")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -12152,7 +13912,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "48b77c04-9b95-46d3-9711-bc065b89d392")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR051"
 			(at 245.11 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -12212,7 +13972,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR012")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -12229,7 +13989,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "490a7b16-20bb-4fbc-b135-5b16d3c2e00e")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR052"
 			(at 270.51 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -12289,7 +14049,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR014")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -12306,7 +14066,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "492e2bc6-5663-4f8e-b87b-a37fdee7b9b6")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR010"
 			(at 270.51 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -12366,7 +14126,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR041")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -12383,7 +14143,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "49eba8be-6f66-4899-aed3-62fd1963be7b")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR04"
 			(at 139.7 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -12443,7 +14203,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR025")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -12505,7 +14265,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CONN JACK 1PORT PCB"
 			(at 58.42 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -12516,8 +14276,8 @@
 				)
 			)
 		)
-		(property "PARTREV" "CX1"
-			(at 64.77 135.128 0)
+		(property "MPN" "RJMG2012211A0FR"
+			(at 58.42 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12525,11 +14285,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 78.232 135.128 0)
+		(property "KLC_S3.3" ""
+			(at 58.42 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12537,11 +14296,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "13.05 mm"
-			(at 67.818 135.128 0)
+		(property "KLC_S4.1" ""
+			(at 58.42 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12549,11 +14307,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "MANUFACTURER" "Amphenol"
-			(at 67.818 135.128 0)
+		(property "MANUFACTURER" "Amphenol ICC"
+			(at 58.42 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12561,7 +14318,50 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 58.42 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 58.42 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 58.42 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "RJMG2012211A0FR-ND"
+			(at 58.42 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "7"
@@ -12635,7 +14435,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4df66c3a-d13c-49cd-a03d-7f21fb622167")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR060"
 			(at 21.59 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -12695,7 +14495,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR053")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -12712,7 +14512,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "52308907-faf4-409a-8355-68069bcf8ff9")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR06"
 			(at 251.46 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -12772,7 +14572,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR042")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -12789,7 +14589,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5301d803-fddb-48cd-87fb-4bfb0e3bf23a")
-		(property "Reference" "C29"
+		(property "Reference" "C33"
 			(at 29.972 171.704 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12833,7 +14633,95 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 100V Capacitores cerámicos X7R 0805"
+			(at 34.29 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM21BR72A104KA37L"
+			(at 34.29 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 34.29 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 34.29 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 34.29 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 34.29 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 34.29 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 34.29 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "490-4789-2-ND"
 			(at 34.29 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -12853,7 +14741,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C29")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -12870,7 +14758,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "53d4b13f-b0fa-4ec2-b921-c81d2b4f946d")
-		(property "Reference" "C26"
+		(property "Reference" "C29"
 			(at 265.684 84.074 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12914,7 +14802,95 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 100V Capacitores cerámicos X7R 0805"
+			(at 270.51 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM21BR72A104KA37L"
+			(at 270.51 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 270.51 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 270.51 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 270.51 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 270.51 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 270.51 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 270.51 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "490-4789-2-ND"
 			(at 270.51 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -12934,7 +14910,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C26")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -12951,7 +14927,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "564e29bf-a084-4302-afcf-77227f81e0c6")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR058"
 			(at 104.14 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -13011,7 +14987,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR062")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -13028,7 +15004,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5b6d1fbb-dcad-42c0-8320-e0f59807aca9")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR015"
 			(at 257.81 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -13088,7 +15064,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR045")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -13105,7 +15081,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5b93e0a7-ea3c-405c-b4ed-ed85ea03cee9")
-		(property "Reference" "C27"
+		(property "Reference" "C32"
 			(at 17.272 171.704 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13149,7 +15125,95 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 100V Capacitores cerámicos X7R 0805"
+			(at 21.59 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM21BR72A104KA37L"
+			(at 21.59 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 21.59 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 21.59 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 21.59 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 21.59 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 21.59 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 21.59 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "490-4789-2-ND"
 			(at 21.59 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -13169,7 +15233,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C27")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -13243,6 +15307,94 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 165.1 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 165.1 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 165.1 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 165.1 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 165.1 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 165.1 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 165.1 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" ""
+			(at 165.1 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
@@ -13263,7 +15415,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5d3df9f8-7ca5-4666-8661-c4179b96c97f")
-		(property "Reference" "C18"
+		(property "Reference" "C27"
 			(at 265.684 40.894 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13307,7 +15459,95 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 100V Capacitores cerámicos X7R 0805"
+			(at 270.51 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM21BR72A104KA37L"
+			(at 270.51 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 270.51 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 270.51 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 270.51 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 270.51 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 270.51 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 270.51 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "490-4789-2-ND"
 			(at 270.51 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -13327,7 +15567,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C18")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -13344,7 +15584,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5d7b675b-fa93-43a0-94bc-806f765927f2")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR037"
 			(at 30.48 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -13404,7 +15644,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR017")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -13421,7 +15661,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5f1f5e77-5154-454c-abc0-1779ddca2632")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR030"
 			(at 251.46 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -13481,7 +15721,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR048")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -13499,7 +15739,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f9716ef-bdd0-4d38-a585-442291c56963")
-		(property "Reference" "R3"
+		(property "Reference" "R4"
 			(at 241.3 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13543,7 +15783,95 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 10K OHM 1% 1/8W 0805"
+			(at 238.76 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805FR-0710KL"
+			(at 238.76 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 238.76 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 238.76 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 238.76 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 238.76 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 238.76 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 238.76 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "311-10.0KCRTR-ND"
 			(at 238.76 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -13563,7 +15891,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "R3")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -13580,7 +15908,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "630cb347-c89d-4df8-81fe-a063133a2395")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG04"
 			(at 111.76 127.635 0)
 			(hide yes)
 			(show_name no)
@@ -13640,7 +15968,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#FLG02")
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -13657,7 +15985,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6323c339-8691-4464-9456-448a0ee4432a")
-		(property "Reference" "C8"
+		(property "Reference" "C17"
 			(at 124.206 59.944 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13701,7 +16029,95 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "1 µF ±10% 16V Capacitores cerámicos X7R 0805"
+			(at 129.54 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM21BR71C105KA58L"
+			(at 129.54 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 129.54 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 129.54 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 129.54 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 129.54 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 129.54 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 129.54 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "490-14437-2-ND"
 			(at 129.54 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -13721,7 +16137,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C8")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -13738,7 +16154,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6333dad4-771f-4cab-8c18-49c2ed1ccd2b")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR038"
 			(at 34.29 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -13798,7 +16214,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR018")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -13815,7 +16231,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "66ff6c70-5a03-43d2-bd2d-8f1947d89496")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR041"
 			(at 176.53 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -13875,7 +16291,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR02")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -13892,7 +16308,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "679eb6ea-dd09-400f-bf35-cd4f3d2b987b")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR047"
 			(at 156.21 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -13952,7 +16368,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR03")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -13970,7 +16386,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67c97ff3-7166-446f-957c-e18ef57329d5")
-		(property "Reference" "R12"
+		(property "Reference" "R14"
 			(at 38.1 132.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14014,7 +16430,95 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 1K OHM 1% 1/8W 0805"
+			(at 35.56 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805FR-071KL"
+			(at 35.56 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 35.56 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 35.56 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 35.56 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 35.56 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 35.56 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 35.56 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "311-1.00KCRTR-ND"
 			(at 35.56 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -14034,7 +16538,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "R12")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -14051,7 +16555,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6c1e32ee-0688-40d1-8249-9cfb60671de8")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR011"
 			(at 231.14 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -14111,7 +16615,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR033")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -14128,7 +16632,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "71309c37-9c10-49b0-b0f9-1ea4415c51ff")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR039"
 			(at 186.69 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -14188,7 +16692,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR029")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -14205,7 +16709,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "72d547fa-24cd-4614-b95a-026d2dc7afd5")
-		(property "Reference" "C19"
+		(property "Reference" "C1"
 			(at 246.634 62.484 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14249,7 +16753,95 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 100V Capacitores cerámicos X7R 0805"
+			(at 251.46 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM21BR72A104KA37L"
+			(at 251.46 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 251.46 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 251.46 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 251.46 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 251.46 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 251.46 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 251.46 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "490-4789-2-ND"
 			(at 251.46 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -14269,7 +16861,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C19")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -14286,7 +16878,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "74e84d9f-405a-499f-954a-aa3ec64cc846")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR062"
 			(at 34.29 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -14346,7 +16938,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR055")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -14363,7 +16955,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77ce33cd-7ea0-4c7b-b50c-af94a806ac30")
-		(property "Reference" "C28"
+		(property "Reference" "C34"
 			(at 23.622 171.704 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14407,7 +16999,95 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 100V Capacitores cerámicos X7R 0805"
+			(at 27.94 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM21BR72A104KA37L"
+			(at 27.94 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 27.94 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 27.94 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 27.94 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 27.94 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 27.94 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 27.94 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "490-4789-2-ND"
 			(at 27.94 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -14427,7 +17107,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C28")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -14444,7 +17124,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "78238a39-a6ec-4e55-ac5a-9405d5ab8876")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR014"
 			(at 251.46 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -14504,7 +17184,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR044")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -14521,7 +17201,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7892dbb5-ad75-4d95-a45b-7900072c6a23")
-		(property "Reference" "Y2"
+		(property "Reference" "Y1"
 			(at 34.29 66.294 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14532,9 +17212,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Crystal"
-			(at 35.56 64.77 0)
-			(hide yes)
+		(property "Value" "25 MHz"
+			(at 40.64 66.294 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14565,7 +17244,7 @@
 				)
 			)
 		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+		(property "Description" "25 MHz ±30ppm Cristales 10pF 4-SMD, sin conductor"
 			(at 35.56 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -14598,6 +17277,72 @@
 				)
 			)
 		)
+		(property "MPN" "ABM8G-25.000MHZ-B4Y-T"
+			(at 35.56 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Abracon LLC"
+			(at 35.56 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 35.56 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 35.56 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 35.56 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "535-10297-2-ND"
+			(at 35.56 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "c09ee3fd-0a6a-423f-9715-478f427f581f")
 		)
@@ -14613,7 +17358,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "Y2")
+					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -14630,8 +17375,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "78a58bdd-1ed4-41af-8494-f195e07986ad")
-		(property "Reference" "R8"
-			(at 26.162 90.17 0)
+		(property "Reference" "R11"
+			(at 25.4 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14674,7 +17419,95 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 12K OHM 1% 1/8W 0805"
+			(at 30.48 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805FR-0712KL"
+			(at 30.48 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 30.48 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 30.48 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 30.48 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 30.48 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 30.48 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 30.48 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "  311-12.0KCRTR-ND"
 			(at 30.48 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -14694,7 +17527,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "R8")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -14712,7 +17545,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c3147b6-895a-4aeb-93bd-fab0b9c94fa8")
-		(property "Reference" "R1"
+		(property "Reference" "R5"
 			(at 166.37 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14756,7 +17589,95 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 10K OHM 1% 1/8W 0805"
+			(at 163.83 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805FR-0710KL"
+			(at 163.83 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 163.83 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 163.83 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 163.83 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 163.83 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 163.83 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 163.83 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "311-10.0KCRTR-ND"
 			(at 163.83 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -14776,7 +17697,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "R1")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -14793,7 +17714,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7da4d850-cb03-4113-a481-90b2084759ca")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR031"
 			(at 134.62 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -14853,7 +17774,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR028")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -14870,7 +17791,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7e3e9452-b273-4146-ad78-2bfa34fafe37")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR035"
 			(at 264.16 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -14930,7 +17851,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR051")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -14947,7 +17868,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7e493cb6-f555-4340-bf3d-1d41011f2b88")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR09"
 			(at 264.16 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -15007,7 +17928,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR040")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -15024,7 +17945,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7f88003b-6f80-49fd-ad79-2ba37eb3c194")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR061"
 			(at 27.94 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -15084,7 +18005,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR054")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -15158,6 +18079,94 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 165.1 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 165.1 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 165.1 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 165.1 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 165.1 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 165.1 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 165.1 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" ""
+			(at 165.1 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
@@ -15178,7 +18187,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "808507f0-75d4-4c3a-ab7e-51daa19bb7cf")
-		(property "Reference" "C17"
+		(property "Reference" "C18"
 			(at 259.334 40.894 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15222,7 +18231,95 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 100V Capacitores cerámicos X7R 0805"
+			(at 264.16 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM21BR72A104KA37L"
+			(at 264.16 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 264.16 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 264.16 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 264.16 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 264.16 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 264.16 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 264.16 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "490-4789-2-ND"
 			(at 264.16 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -15242,7 +18339,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C17")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -15259,7 +18356,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "81128fdc-adb2-4840-bf5b-821422ac6e2a")
-		(property "Reference" "C20"
+		(property "Reference" "C2"
 			(at 252.984 62.484 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15303,7 +18400,95 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 100V Capacitores cerámicos X7R 0805"
+			(at 257.81 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM21BR72A104KA37L"
+			(at 257.81 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 257.81 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 257.81 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 257.81 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 257.81 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 257.81 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 257.81 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "490-4789-2-ND"
 			(at 257.81 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -15323,7 +18508,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C20")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -15340,7 +18525,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8310741e-be65-4b11-8394-a7057ea2f325")
-		(property "Reference" "C14"
+		(property "Reference" "C8"
 			(at 233.934 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15384,7 +18569,95 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10 µF ±10% 25V Capacitores cerámicos X6S 0805"
+			(at 231.14 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM21BC81E106KE51L"
+			(at 231.14 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 231.14 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 231.14 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 231.14 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 231.14 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 231.14 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 231.14 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "490-10502-2-ND"
 			(at 231.14 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -15404,7 +18677,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C14")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -15421,7 +18694,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "83db5629-3ef4-4f82-a237-3d6169f005d6")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR032"
 			(at 190.5 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -15481,7 +18754,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR064")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -15542,7 +18815,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CONN JACK 1PORT PCB"
 			(at 25.4 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -15553,8 +18826,8 @@
 				)
 			)
 		)
-		(property "PARTREV" "CX1"
-			(at -14.732 144.78 0)
+		(property "MPN" "RJMG2012211A0FR"
+			(at 25.4 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15562,11 +18835,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at -14.732 131.318 0)
+		(property "KLC_S3.3" ""
+			(at 25.4 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15574,11 +18846,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "13.05 mm"
-			(at -14.732 141.732 0)
+		(property "KLC_S4.1" ""
+			(at 25.4 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15586,11 +18857,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "MANUFACTURER" "Amphenol"
-			(at -14.732 141.732 0)
+		(property "MANUFACTURER" "Amphenol ICC"
+			(at 25.4 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15598,7 +18868,50 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 25.4 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 25.4 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 25.4 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "RJMG2012211A0FR-ND"
+			(at 25.4 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "5"
@@ -15684,7 +18997,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "GREEN"
 			(at 212.09 151.4474 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15717,7 +19030,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "LED GREEN CLEAR CHIP SMD"
 			(at 208.28 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -15730,6 +19043,94 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 208.28 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "LTST-C171GKT"
+			(at 208.28 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 208.28 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 208.28 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Lite-On Inc."
+			(at 208.28 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 208.28 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 208.28 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 208.28 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "160-1423-2-ND"
+			(at 208.28 148.59 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15765,7 +19166,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "876e848f-c718-4c65-b2d4-4d6da94662ab")
-		(property "Reference" "C15"
+		(property "Reference" "C11"
 			(at 246.634 40.894 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15809,7 +19210,95 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 100V Capacitores cerámicos X7R 0805"
+			(at 251.46 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM21BR72A104KA37L"
+			(at 251.46 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 251.46 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 251.46 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 251.46 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 251.46 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 251.46 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 251.46 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "490-4789-2-ND"
 			(at 251.46 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -15829,7 +19318,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C15")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -15846,7 +19335,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "89f11616-1138-4caf-bec0-7b55f0f62afe")
-		(property "Reference" "C5"
+		(property "Reference" "C9"
 			(at 22.606 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15890,7 +19379,95 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "16 pF ±5% 100V Capacitores cerámicos C0G 0805"
+			(at 27.94 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GQM2195C2A160JB01D"
+			(at 27.94 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 27.94 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 27.94 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 27.94 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 27.94 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 27.94 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 27.94 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "GQM2195C2A160JB01D-ND"
 			(at 27.94 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -15910,7 +19487,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C5")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -15928,7 +19505,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b2e4d61-ee11-4f15-ac1b-168743c901fa")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG06"
 			(at 130.175 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -15989,7 +19566,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#FLG01")
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -16007,7 +19584,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bdbf1d4-6e41-4f94-8494-ae399495a922")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG05"
 			(at 100.965 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -16068,7 +19645,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#FLG03")
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -16128,8 +19705,96 @@
 				)
 			)
 		)
-		(property "Description" "Serial EEPROM, 93 Series, with ORG Pin, 1.8V, DIP-8/SOIC-8"
+		(property "Description" "IC EEPROM 4KBIT MICROWIRE 8SOIC"
 			(at 259.842 105.156 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "93AA66C-I/SN"
+			(at 248.92 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 248.92 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 248.92 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Microchip Technology"
+			(at 248.92 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 248.92 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 248.92 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 248.92 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "93AA66C-I/SN-ND"
+			(at 248.92 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16184,7 +19849,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d6efbfa-20c5-439f-bf96-4db839fae152")
-		(property "Reference" "R4"
+		(property "Reference" "R8"
 			(at 273.05 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16228,7 +19893,95 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 10K OHM 1% 1/8W 0805"
+			(at 270.51 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805FR-0710KL"
+			(at 270.51 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 270.51 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 270.51 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 270.51 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 270.51 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 270.51 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 270.51 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "311-10.0KCRTR-ND"
 			(at 270.51 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -16248,7 +20001,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "R4")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -16265,7 +20018,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "91fb653e-42a5-4c74-beaf-27f6d4d06b03")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR02"
 			(at 34.29 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -16325,7 +20078,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR015")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -16343,7 +20096,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "928c1c8b-e7f2-4940-aede-2ea3ca1b2a17")
-		(property "Reference" "C2"
+		(property "Reference" "C20"
 			(at 167.64 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16387,7 +20140,95 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 100V Capacitores cerámicos X7R 0805"
+			(at 163.83 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM21BR72A104KA37L"
+			(at 163.83 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 163.83 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 163.83 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 163.83 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 163.83 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 163.83 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 163.83 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "490-4789-2-ND"
 			(at 163.83 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -16407,7 +20248,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C2")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -16424,7 +20265,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "93129fa9-a41e-40b4-ba1d-c06913b162a4")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR028"
 			(at 110.49 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -16484,7 +20325,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR023")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -16501,7 +20342,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9439a345-a922-452a-a960-6363a3908de4")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR042"
 			(at 191.77 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -16561,7 +20402,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR07")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -16578,7 +20419,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9b218e36-7358-4f27-8e07-dd1dca9f47ee")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR046"
 			(at 104.14 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -16638,7 +20479,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR063")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -16700,7 +20541,95 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC ETHERNET CTLR USB 48SQFN"
+			(at 144.78 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "LAN7800/VSX"
+			(at 144.78 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 144.78 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 144.78 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Microchip Technology"
+			(at 144.78 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 144.78 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 144.78 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 144.78 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "LAN7800/VSX-ND"
 			(at 144.78 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -16878,7 +20807,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9d5bc92d-97b6-4265-bfb8-c234f257227e")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR026"
 			(at 43.18 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -16938,7 +20867,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR021")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -16999,7 +20928,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CONN JACK 1PORT PCB"
 			(at 35.56 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -17010,8 +20939,8 @@
 				)
 			)
 		)
-		(property "PARTREV" "CX1"
-			(at -4.572 144.78 0)
+		(property "MPN" "RJMG2012211A0FR"
+			(at 35.56 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17019,11 +20948,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at -4.572 131.318 0)
+		(property "KLC_S3.3" ""
+			(at 35.56 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17031,11 +20959,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "13.05 mm"
-			(at -4.572 141.732 0)
+		(property "KLC_S4.1" ""
+			(at 35.56 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17043,11 +20970,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "MANUFACTURER" "Amphenol"
-			(at -4.572 141.732 0)
+		(property "MANUFACTURER" "Amphenol ICC"
+			(at 35.56 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17055,7 +20981,50 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 35.56 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 35.56 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 35.56 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "RJMG2012211A0FR-ND"
+			(at 35.56 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "5"
@@ -17128,10 +21097,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a11a33b1-4723-4648-bebb-15d2a7360feb")
-		(property "Reference" "C1"
-			(at 160.02 139.6999 0)
+		(property "Reference" "C21"
+			(at 159.004 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17142,7 +21110,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 160.02 142.2399 0)
+			(at 159.258 141.986 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17174,7 +21142,95 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10 µF ±10% 25V Capacitores cerámicos X6S 0805"
+			(at 156.21 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM21BC81E106KE51L"
+			(at 156.21 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 156.21 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 156.21 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 156.21 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 156.21 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 156.21 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 156.21 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "490-10502-2-ND"
 			(at 156.21 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -17194,7 +21250,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C1")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -17211,7 +21267,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a4c1bea7-4980-449c-9f7b-b9a418dc468b")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR017"
 			(at 270.51 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -17271,7 +21327,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR047")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -17288,7 +21344,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a950fb79-1b7e-4400-bad8-57a6b9e74f59")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR027"
 			(at 102.87 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -17348,7 +21404,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR022")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -17366,7 +21422,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa9df5fd-f3e3-4a90-b6ed-c323c340a2c4")
-		(property "Reference" "C4"
+		(property "Reference" "C22"
 			(at 234.95 132.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17410,7 +21466,95 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 100V Capacitores cerámicos X7R 0805"
+			(at 231.14 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM21BR72A104KA37L"
+			(at 231.14 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 231.14 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 231.14 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 231.14 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 231.14 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 231.14 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 231.14 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "490-4789-2-ND"
 			(at 231.14 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -17430,7 +21574,176 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C4")
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 111.76 173.99 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ab9981f2-05d4-4b3e-8ec8-a750f4aa22b6")
+		(property "Reference" "C23"
+			(at 106.68 172.466 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 110.998 177.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 107.95 174.9552 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 100V Capacitores cerámicos X7R 0805"
+			(at 111.76 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM21BR72A104KA37L"
+			(at 111.76 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 111.76 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 111.76 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 111.76 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 111.76 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 111.76 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 111.76 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "490-4789-2-ND"
+			(at 111.76 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a40bea07-8e08-4ce2-b3b1-6f2d2bb89e29")
+		)
+		(pin "2"
+			(uuid "3ee80eb5-471f-41ba-a9e9-d4933e6e90f1")
+		)
+		(instances
+			(project "USB3_ETH_Board"
+				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -17447,7 +21760,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "af677b7e-d6c1-49be-b5d8-d9c36efe60b7")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR040"
 			(at 190.5 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -17507,7 +21820,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR030")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -17524,7 +21837,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b01dd215-e779-47e3-a5d4-7d67d043a887")
-		(property "Reference" "C7"
+		(property "Reference" "C5"
 			(at 105.664 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17568,7 +21881,95 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "1 µF ±10% 16V Capacitores cerámicos X7R 0805"
+			(at 102.87 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM21BR71C105KA58L"
+			(at 102.87 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 102.87 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 102.87 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 102.87 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 102.87 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 102.87 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 102.87 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "490-14437-2-ND"
 			(at 102.87 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -17588,7 +21989,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C7")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -17662,6 +22063,94 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 156.21 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 156.21 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 156.21 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 156.21 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 156.21 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 156.21 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 156.21 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" ""
+			(at 156.21 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
@@ -17683,7 +22172,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b282e201-7dac-47ac-8723-76e4ad37451c")
-		(property "Reference" "#FLG06"
+		(property "Reference" "#FLG02"
 			(at 126.365 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -17744,7 +22233,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#FLG06")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -17761,7 +22250,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b6597526-39fc-4fb1-97ac-4fb6293d672d")
-		(property "Reference" "FB2"
+		(property "Reference" "FB1"
 			(at 126.492 47.752 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17804,7 +22293,95 @@
 				)
 			)
 		)
-		(property "Description" "Ferrite bead"
+		(property "Description" "FERRITE BEAD 120 OHM 0805 1LN"
+			(at 129.54 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "BLM21BB121SN1D"
+			(at 129.54 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 129.54 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 129.54 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 129.54 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 129.54 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 129.54 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 129.54 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "490-1042-2-ND"
 			(at 129.54 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -17824,7 +22401,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "FB2")
+					(reference "FB1")
 					(unit 1)
 				)
 			)
@@ -17842,7 +22419,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6f7e577-d99a-46cf-9e87-db568ff427bf")
-		(property "Reference" "C3"
+		(property "Reference" "C19"
 			(at 203.2 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17886,7 +22463,95 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10 µF ±10% 25V Capacitores cerámicos X6S 0805"
+			(at 199.39 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM21BC81E106KE51L"
+			(at 199.39 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 199.39 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 199.39 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 199.39 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 199.39 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 199.39 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 199.39 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "490-10502-2-ND"
 			(at 199.39 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -17906,7 +22571,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C3")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -17923,7 +22588,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b77ffeef-2eec-4be1-83e4-580a5c8cb43e")
-		(property "Reference" "R13"
+		(property "Reference" "R6"
 			(at 110.49 166.624 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17965,8 +22630,96 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 330 OHM 1% 1/8W 0805"
 			(at 111.76 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805FR-07330RL"
+			(at 111.76 168.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 111.76 168.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 111.76 168.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 111.76 168.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 111.76 168.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 111.76 168.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 111.76 168.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "311-330CRTR-ND"
+			(at 111.76 168.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17985,7 +22738,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "R13")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -18002,7 +22755,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b9017e19-81c2-4549-9926-e330ddc138fd")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR023"
 			(at 190.5 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -18062,7 +22815,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR065")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -18079,7 +22832,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bb2e7b47-2af8-4830-9611-eac9d7b756d4")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR012"
 			(at 251.46 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -18139,7 +22892,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR043")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -18156,7 +22909,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bbabf533-97d1-4ee7-8a10-e8be2113abd8")
-		(property "Reference" "C25"
+		(property "Reference" "C15"
 			(at 259.334 84.074 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18200,7 +22953,95 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 100V Capacitores cerámicos X7R 0805"
+			(at 264.16 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM21BR72A104KA37L"
+			(at 264.16 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 264.16 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 264.16 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 264.16 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 264.16 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 264.16 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 264.16 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "490-4789-2-ND"
 			(at 264.16 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -18220,7 +23061,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C25")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -18237,7 +23078,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bcb7d7cc-39b9-4687-a9c0-6f58323086e2")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR05"
 			(at 210.82 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -18297,7 +23138,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR032")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -18359,7 +23200,95 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC ETHERNET CTLR USB 48SQFN"
+			(at 55.88 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "LAN7800/VSX"
+			(at 55.88 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 55.88 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 55.88 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Microchip Technology"
+			(at 55.88 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 55.88 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 55.88 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 55.88 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "LAN7800/VSX-ND"
 			(at 55.88 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -18537,7 +23466,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c01d4ef7-8f6a-47c5-ac84-c5fb5c7a1c34")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR013"
 			(at 129.54 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -18597,7 +23526,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR027")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -18614,7 +23543,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c30302f7-174b-4465-8d87-c8c8618a5e65")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR054"
 			(at 163.83 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -18674,7 +23603,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR05")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -18691,7 +23620,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c3859101-6010-449d-a47c-e48c58732e2a")
-		(property "Reference" "C30"
+		(property "Reference" "C31"
 			(at 36.322 171.704 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18735,7 +23664,95 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 100V Capacitores cerámicos X7R 0805"
+			(at 40.64 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM21BR72A104KA37L"
+			(at 40.64 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 40.64 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 40.64 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 40.64 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 40.64 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 40.64 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 40.64 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "490-4789-2-ND"
 			(at 40.64 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -18755,7 +23772,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C30")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -18772,7 +23789,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c5414cea-966a-4269-ab62-24a46bf6bc96")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR022"
 			(at 231.14 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -18832,7 +23849,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR037")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -18849,7 +23866,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c8bea2c4-3b04-4bab-919a-2cf921d90099")
-		(property "Reference" "TP3"
+		(property "Reference" "TP2"
 			(at 196.596 130.302 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18893,7 +23910,95 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "PC TEST POINT MINIATURE ORANGE"
+			(at 191.77 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "5003"
+			(at 191.77 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 191.77 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 191.77 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 191.77 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 191.77 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 191.77 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 191.77 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "36-5003-ND"
 			(at 191.77 127 0)
 			(hide yes)
 			(show_name no)
@@ -18910,88 +24015,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 111.76 173.99 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "caca183b-b0ae-4361-b468-a56a3792c7a5")
-		(property "Reference" "C32"
-			(at 106.68 172.466 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 110.998 177.8 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
-			(at 107.95 174.9552 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 111.76 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "052d77df-2c3c-4158-a94a-e7a8d77eef6a")
-		)
-		(pin "2"
-			(uuid "d373d0f4-3c4c-44d0-8e62-c9fbdbc974c3")
-		)
-		(instances
-			(project "USB3_ETH_Board"
-				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C32")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -19008,7 +24032,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cbbd9a6d-5fc3-4adc-8f32-358b64d56d01")
-		(property "Reference" "R5"
+		(property "Reference" "R2"
 			(at 26.162 31.496 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19052,7 +24076,95 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 10K OHM 1% 1/8W 0805"
+			(at 30.48 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805FR-0710KL"
+			(at 30.48 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 30.48 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 30.48 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 30.48 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 30.48 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 30.48 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 30.48 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "311-10.0KCRTR-ND"
 			(at 30.48 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -19072,7 +24184,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "R5")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -19089,7 +24201,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d39cbdd0-b8d9-4719-871c-9d17e1880b74")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR033"
 			(at 251.46 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -19149,7 +24261,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR049")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -19167,7 +24279,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d44c9be2-658a-41c0-86ee-c1a1c3010661")
-		(property "Reference" "R2"
+		(property "Reference" "R3"
 			(at 210.82 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19211,7 +24323,95 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 1K OHM 1% 1/8W 0805"
+			(at 208.28 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805FR-071KL"
+			(at 208.28 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 208.28 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 208.28 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 208.28 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 208.28 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 208.28 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 208.28 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "311-1.00KCRTR-ND"
 			(at 208.28 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -19231,7 +24431,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -19249,7 +24449,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6a7b4da-46de-4e0f-ab97-a948d54ca5db")
-		(property "Reference" "R11"
+		(property "Reference" "R13"
 			(at 27.94 132.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19293,7 +24493,95 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 1K OHM 1% 1/8W 0805"
+			(at 25.4 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805FR-071KL"
+			(at 25.4 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 25.4 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 25.4 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 25.4 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 25.4 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 25.4 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 25.4 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "311-1.00KCRTR-ND"
 			(at 25.4 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -19313,7 +24601,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "R11")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -19330,7 +24618,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d934f297-165e-4889-896e-cdebc45d4a41")
-		(property "Reference" "TP2"
+		(property "Reference" "TP3"
 			(at 212.598 137.16 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19374,8 +24662,96 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "PC TEST POINT MINIATURE ORANGE"
 			(at 208.28 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "5003"
+			(at 208.28 137.16 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 208.28 137.16 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 208.28 137.16 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 208.28 137.16 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 208.28 137.16 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 208.28 137.16 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 208.28 137.16 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "36-5003-ND"
+			(at 208.28 137.16 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19391,7 +24767,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "TP2")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -19408,7 +24784,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d993d616-ff58-413b-b252-41997840936c")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR021"
 			(at 220.98 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -19468,7 +24844,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR036")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -19485,7 +24861,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e1e563a1-098f-4502-963c-811ac78eac96")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR045"
 			(at 231.14 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -19545,7 +24921,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR013")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -19562,7 +24938,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e24c1c37-8f76-4e8a-b1eb-02c158fe9410")
-		(property "Reference" "C16"
+		(property "Reference" "C28"
 			(at 252.984 40.894 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19606,7 +24982,95 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 100V Capacitores cerámicos X7R 0805"
+			(at 257.81 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM21BR72A104KA37L"
+			(at 257.81 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 257.81 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 257.81 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 257.81 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 257.81 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 257.81 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 257.81 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "490-4789-2-ND"
 			(at 257.81 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -19626,7 +25090,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C16")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -19643,7 +25107,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e2f243f7-a6f5-4b0f-9730-b7c526ab22d6")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR064"
 			(at 45.72 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -19703,7 +25167,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR058")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -19720,7 +25184,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e31894c8-e987-40e4-a245-cdcf256c3888")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR08"
 			(at 257.81 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -19780,7 +25244,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR039")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -19797,7 +25261,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e702bbbe-7111-4d7b-aa3b-5355c2155c7e")
-		(property "Reference" "C12"
+		(property "Reference" "C7"
 			(at 213.614 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19841,7 +25305,95 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "22 µF ±20% 6.3V Capacitores cerámicos X5R 0805"
+			(at 210.82 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM219R60J226MEA0D"
+			(at 210.82 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 210.82 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 210.82 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 210.82 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 210.82 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 210.82 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 210.82 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "490-14463-2-ND"
 			(at 210.82 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -19861,7 +25413,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C12")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -19878,7 +25430,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e7466713-b665-4fb8-b365-82b1b26ae1ae")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR025"
 			(at 35.56 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -19938,7 +25490,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR019")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -19955,7 +25507,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e74b478a-df46-469d-9aa7-910bb3b2f673")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR03"
 			(at 134.62 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -20015,7 +25567,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR026")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -20032,7 +25584,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e79187c4-6349-4146-960f-315f6c2c72f1")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR019"
 			(at 200.66 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -20092,7 +25644,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR034")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -20109,7 +25661,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e853f696-7598-4619-991f-94e49571eef5")
-		(property "Reference" "C23"
+		(property "Reference" "C13"
 			(at 246.634 84.074 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20153,7 +25705,95 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 100V Capacitores cerámicos X7R 0805"
+			(at 251.46 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM21BR72A104KA37L"
+			(at 251.46 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 251.46 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 251.46 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 251.46 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 251.46 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 251.46 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 251.46 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "490-4789-2-ND"
 			(at 251.46 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -20173,7 +25813,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C23")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -20190,7 +25830,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e86a18cd-4d1c-4473-b996-f8b482833983")
-		(property "Reference" "C11"
+		(property "Reference" "C12"
 			(at 203.454 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20234,7 +25874,95 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 100V Capacitores cerámicos X7R 0805"
+			(at 200.66 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM21BR72A104KA37L"
+			(at 200.66 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 200.66 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 200.66 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 200.66 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 200.66 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 200.66 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 200.66 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "490-4789-2-ND"
 			(at 200.66 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -20254,7 +25982,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C11")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -20272,7 +26000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eabb3de8-6e9a-4eb8-8feb-8c45c7b1ecb6")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR059"
 			(at 127 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -20332,7 +26060,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR061")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -20349,7 +26077,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "edb26ae8-3d99-446e-be25-29feff9bd932")
-		(property "Reference" "C9"
+		(property "Reference" "C10"
 			(at 193.294 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20393,7 +26121,95 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "1 µF ±10% 16V Capacitores cerámicos X7R 0805"
+			(at 190.5 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM21BR71C105KA58L"
+			(at 190.5 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 190.5 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 190.5 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 190.5 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 190.5 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 190.5 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 190.5 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "490-14437-2-ND"
 			(at 190.5 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -20413,7 +26229,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C9")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -20430,7 +26246,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ee390d79-112f-41ab-8735-dce77ef05d42")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR063"
 			(at 40.64 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -20490,7 +26306,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR056")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -20507,7 +26323,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ef2e009c-7000-4a9c-86b0-032dec06c020")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR053"
 			(at 156.21 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -20567,7 +26383,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR06")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -20584,7 +26400,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ef512999-e804-4627-999a-d25d47617cb0")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR049"
 			(at 231.14 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -20644,7 +26460,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR010")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -20661,7 +26477,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f0ec0d64-559f-45e8-9309-1dfea023fc32")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR07"
 			(at 251.46 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -20721,7 +26537,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR038")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -20783,8 +26599,96 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "PC TEST POINT MINIATURE ORANGE"
 			(at 97.79 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "5003"
+			(at 97.79 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 97.79 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 97.79 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 97.79 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 97.79 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 97.79 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 97.79 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "36-5003-ND"
+			(at 97.79 99.06 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20817,7 +26721,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f2919f19-5d28-42f5-a88c-cdf25430c9ad")
-		(property "Reference" "C33"
+		(property "Reference" "C24"
 			(at 100.33 141.986 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20861,8 +26765,96 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 100V Capacitores cerámicos X7R 0805"
 			(at 105.41 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM21BR72A104KA37L"
+			(at 105.41 143.51 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 105.41 143.51 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 105.41 143.51 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 105.41 143.51 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 105.41 143.51 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 105.41 143.51 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 105.41 143.51 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" "490-4789-2-ND"
+			(at 105.41 143.51 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20881,7 +26873,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C33")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -20899,7 +26891,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3988987-a79d-4808-b6ca-850970d01524")
-		(property "Reference" "#FLG05"
+		(property "Reference" "#FLG01"
 			(at 213.995 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -20960,7 +26952,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#FLG05")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -20977,7 +26969,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f5a4034b-2efa-412c-a904-19e27d68fe46")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR048"
 			(at 208.28 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -21037,7 +27029,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#PWR01")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -21111,6 +27103,94 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 156.21 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 156.21 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 156.21 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 156.21 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 156.21 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 156.21 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 156.21 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part #" ""
+			(at 156.21 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
@@ -21131,7 +27211,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fdd56e0a-f0f3-48fa-8b36-570cb3a57399")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG03"
 			(at 194.945 127 0)
 			(hide yes)
 			(show_name no)
@@ -21192,7 +27272,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "#FLG04")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
