@@ -5,14 +5,14 @@
 	(uuid "4c9bb675-5772-48b6-868d-0eecda0e4123")
 	(paper "A4")
 	(title_block
-		(title "USB3_ETH_Board")
+		(title "USB3_ETH_Board / Replica EVB-LAN7800LC")
 		(date "2026-11-12")
-		(rev "Rev. D")
+		(rev "E")
 		(company "FIUBA - CESE")
-		(comment 1 "Diseño de Circuitos Impresos - Trabajo Práctico Final")
-		(comment 2 "Autor: Ing. Lucas Kirschner")
-		(comment 3 "PCB de 4 capas - USB 3.0 / Ethernet.")
-		(comment 4 "Diseño de alta velocidad e impedancia controlada.")
+		(comment 1 "License: CERN-OHL-S-2.0")
+		(comment 2 "Diseño de Circuitos Impresos - Trabajo Práctico Final")
+		(comment 3 "Autor: Ing. Lucas Kirschner")
+		(comment 4 "USB 3.0 to Gigabit Ethernet Adapter")
 		(comment 5 "Integridad de señal y continuidad de planos de referencia")
 		(comment 6 "Herramienta CAD: KiCad")
 		(comment 7 "Estado: En desarrollo")
@@ -4921,7 +4921,7 @@
 	)
 	(rectangle
 		(start 243.84 27.94)
-		(end 276.86 96.52)
+		(end 276.86 105.41)
 		(stroke
 			(width 0)
 			(type dot)
@@ -4959,6 +4959,19 @@
 		(uuid "2e20c4d7-c67f-4afb-856e-fe44aa87fc77")
 	)
 	(rectangle
+		(start 39.37 41.91)
+		(end 53.34 64.77)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 132 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "2fd66eec-4b3b-4fa5-b6b6-5985ffe34229")
+	)
+	(rectangle
 		(start 149.86 111.76)
 		(end 222.25 162.56)
 		(stroke
@@ -4972,6 +4985,19 @@
 		(uuid "368a04b7-652d-49d7-acd8-1139b332f012")
 	)
 	(rectangle
+		(start 96.52 34.29)
+		(end 105.41 64.77)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 132 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "387acf8b-2e34-4932-bec4-abd67d53c35a")
+	)
+	(rectangle
 		(start 16.51 111.76)
 		(end 78.74 193.04)
 		(stroke
@@ -4983,6 +5009,19 @@
 			(type none)
 		)
 		(uuid "c9f37344-a680-48a2-b872-ddc0903f0d94")
+	)
+	(rectangle
+		(start 86.36 139.7)
+		(end 114.3 149.86)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 132 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "cd12f9ac-81b3-43bf-97cb-5a05ceca83de")
 	)
 	(rectangle
 		(start 21.59 64.77)
@@ -5035,6 +5074,19 @@
 		)
 		(uuid "29429e9d-7a21-4c73-98c4-c6d8eba06540")
 	)
+	(text "Ubicar cerca y \nen la capa Top"
+		(exclude_from_sim no)
+		(at 201.676 55.118 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.508)
+				(bold yes)
+				(color 255 0 255 1)
+			)
+		)
+		(uuid "2a389a35-83c7-4dba-adee-6a4f4e93990a")
+	)
 	(text "Upstream Facing USB3-A Plug"
 		(exclude_from_sim no)
 		(at 113.538 115.316 0)
@@ -5047,6 +5099,20 @@
 			)
 		)
 		(uuid "5c967803-3573-41d7-a95d-dd6ee58308e7")
+	)
+	(text "Impedancia controlada"
+		(exclude_from_sim no)
+		(at 37.846 64.262 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.508)
+				(bold yes)
+				(color 255 0 255 1)
+			)
+			(justify left)
+		)
+		(uuid "5e768efb-c37f-4a7b-a7f8-dbda3fb7ef54")
 	)
 	(text "EEPROM Memory"
 		(exclude_from_sim no)
@@ -5085,6 +5151,20 @@
 		)
 		(uuid "85a2046c-aaa2-4c2d-9cd5-dbb8db6c841e")
 	)
+	(text "Impedancia controlada"
+		(exclude_from_sim no)
+		(at 106.68 60.452 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.508)
+				(bold yes)
+				(color 255 0 255 1)
+			)
+			(justify left)
+		)
+		(uuid "8d094b13-0bd6-496a-8063-15d16ac2ad23")
+	)
 	(text "5V to 3.3V"
 		(exclude_from_sim no)
 		(at 162.052 115.57 0)
@@ -5097,6 +5177,20 @@
 			)
 		)
 		(uuid "9b03d7ca-2157-4660-8803-0cae16fc17a3")
+	)
+	(text "Impedancia controlada"
+		(exclude_from_sim no)
+		(at 111.252 138.684 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.508)
+				(bold yes)
+				(color 255 0 255 1)
+			)
+			(justify right)
+		)
+		(uuid "c4faab47-11d8-43e5-b610-75e10da6149f")
 	)
 	(text "3V3/500mA"
 		(exclude_from_sim no)
@@ -5111,6 +5205,20 @@
 		)
 		(uuid "cbcafe56-62ee-4d62-a870-daec29131eff")
 	)
+	(text "SHIELD - Apantallamiento perimetral\nImplementar anillos de cobre en F.Cu y B.Cu, conectados a \nSHIELD y unidos mediante vías de cosido distribuidas a lo \nlargo del perímetro.\nMantener SHIELD separado de GND, excepto por las conexiones \ndefinidas en el circuito."
+		(exclude_from_sim no)
+		(at 82.55 180.848 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.508)
+				(bold yes)
+				(color 255 0 255 1)
+			)
+			(justify left top)
+		)
+		(uuid "eae3eecb-499f-457a-94b4-a700a9f6632a")
+	)
 	(text "USB to Ethernet Controller"
 		(exclude_from_sim no)
 		(at 44.958 20.574 0)
@@ -5123,6 +5231,20 @@
 			)
 		)
 		(uuid "f106ec69-1e0e-4a3b-8fc5-c16ec21fe655")
+	)
+	(text "Ubicar cerca de los pines \nde U1 correspondientes."
+		(exclude_from_sim no)
+		(at 245.11 102.616 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.508)
+				(bold yes)
+				(color 255 0 255 1)
+			)
+			(justify left)
+		)
+		(uuid "f5ecede9-2cf4-4cd5-a5cb-360ad541f68b")
 	)
 	(text "Mechanical"
 		(exclude_from_sim no)
