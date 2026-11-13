@@ -7,12 +7,12 @@
 	(title_block
 		(title "USB3_ETH_Board")
 		(date "2026-11-12")
-		(rev "Rev. C")
+		(rev "Rev. D")
 		(company "FIUBA - CESE")
 		(comment 1 "Diseño de Circuitos Impresos - Trabajo Práctico Final")
 		(comment 2 "Autor: Ing. Lucas Kirschner")
-		(comment 3 "PCB de 4 capas - USB 3.0 / Ethernet")
-		(comment 4 "Diseño de alta velocidad e impedancia controlada")
+		(comment 3 "PCB de 4 capas - USB 3.0 / Ethernet.")
+		(comment 4 "Diseño de alta velocidad e impedancia controlada.")
 		(comment 5 "Integridad de señal y continuidad de planos de referencia")
 		(comment 6 "Herramienta CAD: KiCad")
 		(comment 7 "Estado: En desarrollo")
@@ -4921,7 +4921,7 @@
 	)
 	(rectangle
 		(start 243.84 27.94)
-		(end 275.59 96.52)
+		(end 276.86 96.52)
 		(stroke
 			(width 0)
 			(type dot)
@@ -9355,7 +9355,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "03dcb8a8-c609-4494-b2b6-60d2335bbabc")
-		(property "Reference" "C26"
+		(property "Reference" "C8"
 			(at 223.774 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9366,8 +9366,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 223.774 66.04 0)
+		(property "Value" "0.1uF"
+			(at 223.266 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9507,7 +9507,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C26")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -10009,7 +10009,7 @@
 		(dnp no)
 		(uuid "1234851b-c249-4238-9bb0-cb9757e6e7a8")
 		(property "Reference" "J2"
-			(at 116.586 127 0)
+			(at 124.968 123.952 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10020,7 +10020,7 @@
 			)
 		)
 		(property "Value" "692112030100"
-			(at 128.27 167.894 0)
+			(at 119.634 126.492 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10278,7 +10278,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "140d8175-815b-4fcf-b9fd-3e04bd6d0937")
-		(property "Reference" "C6"
+		(property "Reference" "C17"
 			(at 193.294 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10289,7 +10289,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1uF"
 			(at 193.294 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10430,7 +10430,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C6")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -10524,7 +10524,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "17f901fd-cd10-427e-8829-fb5c2c083a99")
-		(property "Reference" "R12"
+		(property "Reference" "R4"
 			(at 118.364 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10535,7 +10535,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10K"
 			(at 118.364 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10676,7 +10676,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "R12")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -10693,7 +10693,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1932ae6b-143d-460d-84df-b33b348f5e0f")
-		(property "Reference" "R10"
+		(property "Reference" "R2"
 			(at 36.068 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10704,7 +10704,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10K"
 			(at 36.068 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10845,7 +10845,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "R10")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -11258,7 +11258,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "238d6889-f105-4761-be12-9d358de25071")
-		(property "Reference" "R1"
+		(property "Reference" "R3"
 			(at 112.014 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11269,7 +11269,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "2K"
 			(at 112.014 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11410,7 +11410,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "R1")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -11669,7 +11669,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "275ba948-7f9e-47ea-93ce-cf817f35ae99")
-		(property "Reference" "C3"
+		(property "Reference" "C12"
 			(at 259.334 62.484 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11680,7 +11680,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 264.922 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11821,7 +11821,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C3")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -11838,7 +11838,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2d3de443-58a3-454e-a0f1-462e70741e68")
-		(property "Reference" "C30"
+		(property "Reference" "C33"
 			(at 45.72 172.466 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11849,7 +11849,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1000pF"
 			(at 50.038 177.8 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11990,7 +11990,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C30")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -12239,7 +12239,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3234666e-4783-48e7-9e65-3a7cb72eed93")
-		(property "Reference" "C14"
+		(property "Reference" "C19"
 			(at 252.984 84.074 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12250,7 +12250,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 258.572 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12391,7 +12391,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C14")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -12409,7 +12409,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35599c38-7d71-4f92-a0a5-b74f5e56b117")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 184.15 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12576,7 +12576,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -12593,8 +12593,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "39023fe2-334b-4047-96ca-474c8177c749")
-		(property "Reference" "C16"
-			(at 45.974 73.66 0)
+		(property "Reference" "C15"
+			(at 44.45 72.898 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12604,8 +12604,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 45.974 76.2 0)
+		(property "Value" "16pF"
+			(at 44.704 77.216 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12745,7 +12745,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C16")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -12849,9 +12849,8 @@
 				)
 			)
 		)
-		(property "Value" "FerriteBead"
-			(at 184.404 130.81 90)
-			(hide yes)
+		(property "Value" "120R"
+			(at 187.96 128.524 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13007,7 +13006,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3feb85b3-a5ae-415f-b675-831cd1f33431")
-		(property "Reference" "C4"
+		(property "Reference" "C13"
 			(at 265.684 62.484 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13018,8 +13017,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 271.272 67.31 0)
+		(property "Value" "0.1uF"
+			(at 271.018 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13159,7 +13158,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C4")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -13176,7 +13175,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "41ae32c5-45a8-4720-b08f-f58f0bbed5d7")
-		(property "Reference" "C25"
+		(property "Reference" "C27"
 			(at 100.33 147.066 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13187,7 +13186,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 106.934 147.066 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13328,7 +13327,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C25")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -13666,7 +13665,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "46328450-a352-463a-95ac-e6beebd973af")
-		(property "Reference" "R9"
+		(property "Reference" "R6"
 			(at 35.814 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13677,7 +13676,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10K"
 			(at 35.814 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13818,7 +13817,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "R9")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -14589,7 +14588,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5301d803-fddb-48cd-87fb-4bfb0e3bf23a")
-		(property "Reference" "C33"
+		(property "Reference" "C31"
 			(at 29.972 171.704 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14600,7 +14599,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 34.798 176.276 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14741,7 +14740,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C33")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -14758,7 +14757,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "53d4b13f-b0fa-4ec2-b921-c81d2b4f946d")
-		(property "Reference" "C29"
+		(property "Reference" "C21"
 			(at 265.684 84.074 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14769,8 +14768,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 271.272 88.9 0)
+		(property "Value" "0.1uF"
+			(at 271.018 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14910,7 +14909,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C29")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -15081,7 +15080,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5b93e0a7-ea3c-405c-b4ed-ed85ea03cee9")
-		(property "Reference" "C32"
+		(property "Reference" "C29"
 			(at 17.272 171.704 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15092,7 +15091,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 22.098 176.276 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15233,7 +15232,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C32")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -15415,7 +15414,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5d3df9f8-7ca5-4666-8661-c4179b96c97f")
-		(property "Reference" "C27"
+		(property "Reference" "C4"
 			(at 265.684 40.894 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15426,8 +15425,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 271.272 45.72 0)
+		(property "Value" "0.1uF"
+			(at 270.764 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15567,7 +15566,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C27")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -15737,10 +15736,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5f9716ef-bdd0-4d38-a585-442291c56963")
-		(property "Reference" "R4"
-			(at 241.3 139.6999 0)
+		(property "Reference" "R11"
+			(at 240.538 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15750,8 +15748,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 241.3 142.2399 0)
+		(property "Value" "10K"
+			(at 240.538 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15891,7 +15889,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "R4")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -15985,8 +15983,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6323c339-8691-4464-9456-448a0ee4432a")
-		(property "Reference" "C17"
-			(at 124.206 59.944 0)
+		(property "Reference" "C5"
+			(at 123.444 59.944 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15996,8 +15994,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 124.206 62.484 0)
+		(property "Value" "1uF"
+			(at 123.444 62.484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16137,7 +16135,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C17")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -16386,7 +16384,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67c97ff3-7166-446f-957c-e18ef57329d5")
-		(property "Reference" "R14"
+		(property "Reference" "R8"
 			(at 38.1 132.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16397,7 +16395,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1K"
 			(at 38.1 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16538,7 +16536,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "R14")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -16709,7 +16707,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "72d547fa-24cd-4614-b95a-026d2dc7afd5")
-		(property "Reference" "C1"
+		(property "Reference" "C10"
 			(at 246.634 62.484 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16720,7 +16718,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 252.222 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16861,7 +16859,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C1")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -16955,7 +16953,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77ce33cd-7ea0-4c7b-b50c-af94a806ac30")
-		(property "Reference" "C34"
+		(property "Reference" "C30"
 			(at 23.622 171.704 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16966,7 +16964,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 28.448 176.276 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17107,7 +17105,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C34")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -17212,7 +17210,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "25 MHz"
+		(property "Value" "25MHz"
 			(at 40.64 66.294 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17375,7 +17373,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "78a58bdd-1ed4-41af-8494-f195e07986ad")
-		(property "Reference" "R11"
+		(property "Reference" "R5"
 			(at 25.4 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17386,7 +17384,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "12K"
 			(at 26.162 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17527,7 +17525,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "R11")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -17543,10 +17541,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7c3147b6-895a-4aeb-93bd-fab0b9c94fa8")
-		(property "Reference" "R5"
-			(at 166.37 139.6999 0)
+		(property "Reference" "R9"
+			(at 165.354 139.954 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17556,8 +17553,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 166.37 142.2399 0)
+		(property "Value" "10K"
+			(at 165.354 142.494 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17697,7 +17694,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "R5")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -18187,7 +18184,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "808507f0-75d4-4c3a-ab7e-51daa19bb7cf")
-		(property "Reference" "C18"
+		(property "Reference" "C3"
 			(at 259.334 40.894 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18198,7 +18195,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 264.922 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18339,7 +18336,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C18")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -18356,7 +18353,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "81128fdc-adb2-4840-bf5b-821422ac6e2a")
-		(property "Reference" "C2"
+		(property "Reference" "C11"
 			(at 252.984 62.484 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18367,7 +18364,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 258.572 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18508,7 +18505,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C2")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -18525,7 +18522,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8310741e-be65-4b11-8394-a7057ea2f325")
-		(property "Reference" "C8"
+		(property "Reference" "C9"
 			(at 233.934 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18536,7 +18533,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10uF"
 			(at 233.934 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18677,7 +18674,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C8")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -19166,7 +19163,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "876e848f-c718-4c65-b2d4-4d6da94662ab")
-		(property "Reference" "C11"
+		(property "Reference" "C1"
 			(at 246.634 40.894 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19177,7 +19174,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 252.222 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19318,7 +19315,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C11")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -19335,8 +19332,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "89f11616-1138-4caf-bec0-7b55f0f62afe")
-		(property "Reference" "C9"
-			(at 22.606 73.66 0)
+		(property "Reference" "C14"
+			(at 22.606 72.644 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19346,8 +19343,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 22.606 76.2 0)
+		(property "Value" "16pF"
+			(at 22.606 77.216 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19487,7 +19484,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C9")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -19663,7 +19660,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c52a415-e970-4621-a764-33396c514251")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 256.54 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19831,7 +19828,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "U3")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -19847,10 +19844,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8d6efbfa-20c5-439f-bf96-4db839fae152")
-		(property "Reference" "R8"
-			(at 273.05 139.6999 0)
+		(property "Reference" "R12"
+			(at 272.288 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19860,8 +19856,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 273.05 142.2399 0)
+		(property "Value" "10K"
+			(at 272.288 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20001,7 +19997,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "R8")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -20094,10 +20090,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "928c1c8b-e7f2-4940-aede-2ea3ca1b2a17")
-		(property "Reference" "C20"
-			(at 167.64 147.3199 0)
+		(property "Reference" "C28"
+			(at 166.878 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20107,8 +20102,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 167.64 149.8599 0)
+		(property "Value" "0.1uF"
+			(at 166.878 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20248,7 +20243,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C20")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -21098,8 +21093,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a11a33b1-4723-4648-bebb-15d2a7360feb")
-		(property "Reference" "C21"
-			(at 159.004 139.7 0)
+		(property "Reference" "C24"
+			(at 158.75 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21109,8 +21104,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 159.258 141.986 0)
+		(property "Value" "10uF"
+			(at 157.48 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21250,7 +21245,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C21")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -21420,10 +21415,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "aa9df5fd-f3e3-4a90-b6ed-c323c340a2c4")
-		(property "Reference" "C22"
-			(at 234.95 132.0799 0)
+		(property "Reference" "C23"
+			(at 233.934 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21433,8 +21427,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 234.95 134.6199 0)
+		(property "Value" "0.1uF"
+			(at 232.156 135.636 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21574,7 +21568,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C22")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -21591,8 +21585,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ab9981f2-05d4-4b3e-8ec8-a750f4aa22b6")
-		(property "Reference" "C23"
-			(at 106.68 172.466 90)
+		(property "Reference" "C34"
+			(at 106.172 172.466 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21602,8 +21596,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 110.998 177.8 90)
+		(property "Value" "0.1uF"
+			(at 113.284 172.466 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21743,7 +21737,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C23")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -21837,8 +21831,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b01dd215-e779-47e3-a5d4-7d67d043a887")
-		(property "Reference" "C5"
-			(at 105.664 73.66 0)
+		(property "Reference" "C16"
+			(at 105.41 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21848,8 +21842,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 105.664 76.2 0)
+		(property "Value" "1uF"
+			(at 105.41 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21989,7 +21983,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C5")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -22260,9 +22254,8 @@
 				)
 			)
 		)
-		(property "Value" "FerriteBead"
-			(at 133.35 45.466 90)
-			(hide yes)
+		(property "Value" "120R"
+			(at 126.238 50.038 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22417,10 +22410,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b6f7e577-d99a-46cf-9e87-db568ff427bf")
-		(property "Reference" "C19"
-			(at 203.2 139.6999 0)
+		(property "Reference" "C25"
+			(at 201.93 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22430,8 +22422,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 203.2 142.2399 0)
+		(property "Value" "10uF"
+			(at 201.93 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22571,7 +22563,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C19")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -22588,8 +22580,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b77ffeef-2eec-4be1-83e4-580a5c8cb43e")
-		(property "Reference" "R6"
-			(at 110.49 166.624 90)
+		(property "Reference" "R13"
+			(at 108.712 166.624 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22598,8 +22590,8 @@
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 114.046 166.624 90)
+		(property "Value" "330R"
+			(at 113.538 166.624 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22738,7 +22730,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "R6")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -22909,7 +22901,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bbabf533-97d1-4ee7-8a10-e8be2113abd8")
-		(property "Reference" "C15"
+		(property "Reference" "C20"
 			(at 259.334 84.074 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22920,7 +22912,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 264.922 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23061,7 +23053,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C15")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -23620,7 +23612,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c3859101-6010-449d-a47c-e48c58732e2a")
-		(property "Reference" "C31"
+		(property "Reference" "C32"
 			(at 36.322 171.704 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23631,7 +23623,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 41.148 176.276 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23772,7 +23764,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C31")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -24032,8 +24024,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cbbd9a6d-5fc3-4adc-8f32-358b64d56d01")
-		(property "Reference" "R2"
-			(at 26.162 31.496 0)
+		(property "Reference" "R1"
+			(at 25.4 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24043,8 +24035,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 26.162 34.036 0)
+		(property "Value" "10K"
+			(at 25.4 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24184,7 +24176,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -24279,7 +24271,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d44c9be2-658a-41c0-86ee-c1a1c3010661")
-		(property "Reference" "R3"
+		(property "Reference" "R10"
 			(at 210.82 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24290,7 +24282,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1K"
 			(at 210.82 142.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24431,7 +24423,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "R3")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -24449,7 +24441,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6a7b4da-46de-4e0f-ab97-a948d54ca5db")
-		(property "Reference" "R13"
+		(property "Reference" "R7"
 			(at 27.94 132.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24460,7 +24452,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1K"
 			(at 27.94 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24601,7 +24593,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "R13")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -24938,7 +24930,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e24c1c37-8f76-4e8a-b1eb-02c158fe9410")
-		(property "Reference" "C28"
+		(property "Reference" "C2"
 			(at 252.984 40.894 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24949,7 +24941,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 258.572 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25090,7 +25082,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C28")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -25272,7 +25264,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22uF"
 			(at 213.614 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25661,7 +25653,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e853f696-7598-4619-991f-94e49571eef5")
-		(property "Reference" "C13"
+		(property "Reference" "C18"
 			(at 246.634 84.074 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25672,7 +25664,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 252.222 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25813,7 +25805,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C13")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -25830,7 +25822,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e86a18cd-4d1c-4473-b996-f8b482833983")
-		(property "Reference" "C12"
+		(property "Reference" "C6"
 			(at 203.454 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25841,8 +25833,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 203.454 66.04 0)
+		(property "Value" "0.1uF"
+			(at 203.2 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25982,7 +25974,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C12")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -26077,7 +26069,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "edb26ae8-3d99-446e-be25-29feff9bd932")
-		(property "Reference" "C10"
+		(property "Reference" "C22"
 			(at 193.294 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26088,7 +26080,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1uF"
 			(at 193.294 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26229,7 +26221,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C10")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -26721,7 +26713,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f2919f19-5d28-42f5-a88c-cdf25430c9ad")
-		(property "Reference" "C24"
+		(property "Reference" "C26"
 			(at 100.33 141.986 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26732,7 +26724,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 106.934 141.986 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26873,7 +26865,7 @@
 		(instances
 			(project "USB3_ETH_Board"
 				(path "/4c9bb675-5772-48b6-868d-0eecda0e4123"
-					(reference "C24")
+					(reference "C26")
 					(unit 1)
 				)
 			)
