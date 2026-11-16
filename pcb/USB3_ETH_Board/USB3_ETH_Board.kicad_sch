@@ -7,7 +7,7 @@
 	(title_block
 		(title "USB3_ETH_Board / Replica EVB-LAN7800LC")
 		(date "2026-11-12")
-		(rev "E")
+		(rev "F")
 		(company "FIUBA - CESE")
 		(comment 1 "License: CERN-OHL-S-2.0")
 		(comment 2 "Diseño de Circuitos Impresos - Trabajo Práctico Final")
