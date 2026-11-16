@@ -5012,7 +5012,7 @@
 	)
 	(rectangle
 		(start 86.36 139.7)
-		(end 114.3 149.86)
+		(end 114.3 152.4)
 		(stroke
 			(width 0)
 			(type dot)
@@ -5087,6 +5087,20 @@
 		)
 		(uuid "2a389a35-83c7-4dba-adee-6a4f4e93990a")
 	)
+	(text "9"
+		(exclude_from_sim no)
+		(at 264.922 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.508)
+				(bold yes)
+				(color 255 0 255 1)
+			)
+			(justify right)
+		)
+		(uuid "558f1ad6-0960-4280-8f7d-90ed36c55106")
+	)
 	(text "Upstream Facing USB3-A Plug"
 		(exclude_from_sim no)
 		(at 113.538 115.316 0)
@@ -5127,6 +5141,20 @@
 		)
 		(uuid "64327704-19fb-4731-9383-639f7793f915")
 	)
+	(text "30"
+		(exclude_from_sim no)
+		(at 259.334 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.508)
+				(bold yes)
+				(color 255 0 255 1)
+			)
+			(justify right)
+		)
+		(uuid "67050aac-4eb4-4a93-936c-d04f0e12fc6e")
+	)
 	(text "Crystal"
 		(exclude_from_sim no)
 		(at 25.908 66.548 0)
@@ -5139,6 +5167,20 @@
 		)
 		(uuid "69495055-a579-4129-ac0d-ed2f6b4f09f9")
 	)
+	(text "39"
+		(exclude_from_sim no)
+		(at 271.526 81.534 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.508)
+				(bold yes)
+				(color 255 0 255 1)
+			)
+			(justify right)
+		)
+		(uuid "85513275-a17d-4fdc-8385-a03b4bcf6608")
+	)
 	(text ""
 		(exclude_from_sim no)
 		(at 158.242 114.3 0)
@@ -5150,6 +5192,20 @@
 			)
 		)
 		(uuid "85a2046c-aaa2-4c2d-9cd5-dbb8db6c841e")
+	)
+	(text "20"
+		(exclude_from_sim no)
+		(at 252.222 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.508)
+				(bold yes)
+				(color 255 0 255 1)
+			)
+			(justify right)
+		)
+		(uuid "8c03dbec-8fc7-432d-806d-a3a7f56eb409")
 	)
 	(text "Impedancia controlada"
 		(exclude_from_sim no)
@@ -5165,6 +5221,20 @@
 		)
 		(uuid "8d094b13-0bd6-496a-8063-15d16ac2ad23")
 	)
+	(text "21"
+		(exclude_from_sim no)
+		(at 252.73 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.508)
+				(bold yes)
+				(color 255 0 255 1)
+			)
+			(justify right)
+		)
+		(uuid "9461edac-fa9d-4b48-b73a-adf3f233801a")
+	)
 	(text "5V to 3.3V"
 		(exclude_from_sim no)
 		(at 162.052 115.57 0)
@@ -5177,6 +5247,62 @@
 			)
 		)
 		(uuid "9b03d7ca-2157-4660-8803-0cae16fc17a3")
+	)
+	(text "6"
+		(exclude_from_sim no)
+		(at 258.572 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.508)
+				(bold yes)
+				(color 255 0 255 1)
+			)
+			(justify right)
+		)
+		(uuid "a2231191-48b1-496c-9b95-e0f9181d2c20")
+	)
+	(text "38"
+		(exclude_from_sim no)
+		(at 264.922 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.508)
+				(bold yes)
+				(color 255 0 255 1)
+			)
+			(justify right)
+		)
+		(uuid "a7d1bdbb-cb4e-4177-944d-bc57ddc9b311")
+	)
+	(text "36"
+		(exclude_from_sim no)
+		(at 258.572 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.508)
+				(bold yes)
+				(color 255 0 255 1)
+			)
+			(justify right)
+		)
+		(uuid "bd56db0b-a00b-4b95-b21e-77468f81194d")
+	)
+	(text "12"
+		(exclude_from_sim no)
+		(at 271.526 59.944 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.508)
+				(bold yes)
+				(color 255 0 255 1)
+			)
+			(justify right)
+		)
+		(uuid "bf9c2044-e3c7-45a3-b9c1-707ee4c06d86")
 	)
 	(text "Impedancia controlada"
 		(exclude_from_sim no)
@@ -5204,6 +5330,48 @@
 			)
 		)
 		(uuid "cbcafe56-62ee-4d62-a870-daec29131eff")
+	)
+	(text "3"
+		(exclude_from_sim no)
+		(at 252.222 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.508)
+				(bold yes)
+				(color 255 0 255 1)
+			)
+			(justify right)
+		)
+		(uuid "cda37399-b52c-451a-b561-3e6d1ce2e875")
+	)
+	(text "42"
+		(exclude_from_sim no)
+		(at 265.43 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.508)
+				(bold yes)
+				(color 255 0 255 1)
+			)
+			(justify right)
+		)
+		(uuid "d85a08f1-938c-4567-9255-3be371de09b4")
+	)
+	(text "44"
+		(exclude_from_sim no)
+		(at 271.526 38.354 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.508)
+				(bold yes)
+				(color 255 0 255 1)
+			)
+			(justify right)
+		)
+		(uuid "e03f2e7b-33d3-4097-b9f3-cf8c73b48208")
 	)
 	(text "SHIELD - Apantallamiento perimetral\nImplementar anillos de cobre en F.Cu y B.Cu, conectados a \nSHIELD y unidos mediante vías de cosido distribuidas a lo \nlargo del perímetro.\nMantener SHIELD separado de GND, excepto por las conexiones \ndefinidas en el circuito."
 		(exclude_from_sim no)
@@ -5659,7 +5827,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 148.59) (xy 101.6 148.59)
+			(xy 87.63 148.59) (xy 99.06 148.59)
 		)
 		(stroke
 			(width 0)
@@ -5709,7 +5877,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 59.69) (xy 251.46 60.96)
+			(xy 247.65 59.69) (xy 247.65 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5879,7 +6047,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 143.51) (xy 101.6 143.51)
+			(xy 87.63 143.51) (xy 99.06 143.51)
 		)
 		(stroke
 			(width 0)
@@ -6016,6 +6184,16 @@
 			(type default)
 		)
 		(uuid "421482bb-9c9b-44b4-80be-5d887b189b81")
+	)
+	(wire
+		(pts
+			(xy 247.65 39.37) (xy 251.46 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "425fe54b-bff3-403b-ab16-46255e9cd4a1")
 	)
 	(wire
 		(pts
@@ -6229,13 +6407,13 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 148.59) (xy 114.3 148.59)
+			(xy 106.68 148.59) (xy 114.3 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "63c395ad-c0de-47b2-ad83-ab133ec043da")
+		(uuid "64b928b7-40bc-4428-895e-6aa257cfb3d4")
 	)
 	(wire
 		(pts
@@ -6539,7 +6717,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 38.1) (xy 251.46 39.37)
+			(xy 247.65 38.1) (xy 247.65 39.37)
 		)
 		(stroke
 			(width 0)
@@ -6719,6 +6897,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 82.55) (xy 251.46 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a640fb4f-a61f-4fc9-9adc-f04f9156289a")
+	)
+	(wire
+		(pts
 			(xy 129.54 55.88) (xy 129.54 49.53)
 		)
 		(stroke
@@ -6749,6 +6937,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 143.51) (xy 114.3 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7f2c128-6e1b-421a-bbd1-4f6453edc491")
+	)
+	(wire
+		(pts
 			(xy 156.21 137.16) (xy 173.99 137.16)
 		)
 		(stroke
@@ -6756,16 +6954,6 @@
 			(type default)
 		)
 		(uuid "a8ccbfe7-e66a-4367-8382-477c69b21c64")
-	)
-	(wire
-		(pts
-			(xy 109.22 143.51) (xy 114.3 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab084d06-8bea-46f6-90b3-4a5dc78ab1ab")
 	)
 	(wire
 		(pts
@@ -7019,6 +7207,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 60.96) (xy 251.46 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce9667c3-1e57-4cc6-855f-b36d4bb51b42")
+	)
+	(wire
+		(pts
 			(xy 104.14 130.81) (xy 104.14 129.54)
 		)
 		(stroke
@@ -7089,7 +7287,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 81.28) (xy 251.46 82.55)
+			(xy 247.65 81.28) (xy 247.65 82.55)
 		)
 		(stroke
 			(width 0)
@@ -8938,7 +9136,7 @@
 			"TkSuQmCC"
 		)
 	)
-	(label "TR1P"
+	(label "TR1_P"
 		(at 48.26 143.51 0)
 		(effects
 			(font
@@ -8950,7 +9148,7 @@
 		)
 		(uuid "0138a18f-4ccc-4436-a5d4-ad27b7f42bfd")
 	)
-	(label "TR0N"
+	(label "TR0_N"
 		(at 99.06 40.64 0)
 		(effects
 			(font
@@ -8962,7 +9160,19 @@
 		)
 		(uuid "0407ba2e-7391-4439-b638-23f95df8f519")
 	)
-	(label "TR2N"
+	(label "SSRX_P"
+		(at 106.68 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "096d4f60-c2c3-485d-8380-66f2524ea83e")
+	)
+	(label "TR2_N"
 		(at 48.26 152.4 0)
 		(effects
 			(font
@@ -8973,6 +9183,18 @@
 			(justify left bottom)
 		)
 		(uuid "111facb6-e668-4dbe-8d98-5124625ce5d4")
+	)
+	(label "SSRX_N"
+		(at 106.68 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "13edb63a-c393-43b3-9c62-ad5f914d1018")
 	)
 	(label "XI"
 		(at 40.64 71.12 0)
@@ -8986,7 +9208,7 @@
 		)
 		(uuid "16e787ce-6651-400e-8e72-4a07b85f5f95")
 	)
-	(label "TR3N"
+	(label "TR3_N"
 		(at 48.26 158.75 0)
 		(effects
 			(font
@@ -8998,7 +9220,7 @@
 		)
 		(uuid "1c1f2f1f-2b0e-417c-878c-7610796c4f5a")
 	)
-	(label "USB2_DM"
+	(label "USB2_N"
 		(at 40.64 48.26 0)
 		(effects
 			(font
@@ -9010,7 +9232,7 @@
 		)
 		(uuid "20ba93ec-8a0b-4add-bdbc-cefbd1295ee3")
 	)
-	(label "USB2_DP"
+	(label "USB2_P"
 		(at 40.64 45.72 0)
 		(effects
 			(font
@@ -9022,7 +9244,7 @@
 		)
 		(uuid "21c20d46-f0f3-4ab8-a845-a91d6acf8699")
 	)
-	(label "USB3_TXDM"
+	(label "USB3_TX_N"
 		(at 40.64 55.88 0)
 		(effects
 			(font
@@ -9058,7 +9280,7 @@
 		)
 		(uuid "2ccc25ca-8d70-4aa0-b377-be6f39ffb31a")
 	)
-	(label "TR2P"
+	(label "TR2_P"
 		(at 99.06 53.34 0)
 		(effects
 			(font
@@ -9070,7 +9292,7 @@
 		)
 		(uuid "2fe64f5a-c077-44ab-a85e-0088bc19b4f9")
 	)
-	(label "USB3_RXDP"
+	(label "USB3_RX_P"
 		(at 87.63 157.48 0)
 		(effects
 			(font
@@ -9106,7 +9328,7 @@
 		)
 		(uuid "35b70887-a3fe-4fb0-ba3a-524e7362c5ff")
 	)
-	(label "USB3_RXDP"
+	(label "USB3_RX_P"
 		(at 40.64 60.96 0)
 		(effects
 			(font
@@ -9130,7 +9352,7 @@
 		)
 		(uuid "3faa3c9a-fc7a-4066-9bf8-6c7c95faafef")
 	)
-	(label "TR1N"
+	(label "TR1_N"
 		(at 48.26 146.05 0)
 		(effects
 			(font
@@ -9142,7 +9364,7 @@
 		)
 		(uuid "4640ea3d-03f4-4da6-8301-85b95125d8b0")
 	)
-	(label "TR0N"
+	(label "TR0_N"
 		(at 48.26 139.7 0)
 		(effects
 			(font
@@ -9154,7 +9376,7 @@
 		)
 		(uuid "53f49f53-ba93-47d9-8a37-c10518b487cf")
 	)
-	(label "TR3P"
+	(label "TR3_P"
 		(at 99.06 60.96 0)
 		(effects
 			(font
@@ -9166,7 +9388,7 @@
 		)
 		(uuid "5c2f5d7c-da30-4d2b-86d8-0346176c35b2")
 	)
-	(label "TR0P"
+	(label "TR0_P"
 		(at 99.06 38.1 0)
 		(effects
 			(font
@@ -9178,7 +9400,7 @@
 		)
 		(uuid "615a9952-8fea-4522-9b7d-fb25c972dcb2")
 	)
-	(label "TR0P"
+	(label "TR0_P"
 		(at 48.26 137.16 0)
 		(effects
 			(font
@@ -9202,7 +9424,7 @@
 		)
 		(uuid "67dc0581-b0a1-4818-ac7e-162ecf36fb13")
 	)
-	(label "TR2N"
+	(label "TR2_N"
 		(at 99.06 55.88 0)
 		(effects
 			(font
@@ -9226,7 +9448,7 @@
 		)
 		(uuid "7870e92b-ed92-460a-aad5-2b466c575559")
 	)
-	(label "TR2P"
+	(label "TR2_P"
 		(at 48.26 149.86 0)
 		(effects
 			(font
@@ -9238,7 +9460,7 @@
 		)
 		(uuid "79316856-2b4e-42c2-9ea2-a25020997932")
 	)
-	(label "TR1N"
+	(label "TR1_N"
 		(at 99.06 48.26 0)
 		(effects
 			(font
@@ -9298,7 +9520,7 @@
 		)
 		(uuid "a7346440-ff14-4f4e-8ff0-fecf3ae976e8")
 	)
-	(label "USB2_DP"
+	(label "USB2_P"
 		(at 87.63 137.16 0)
 		(effects
 			(font
@@ -9310,7 +9532,7 @@
 		)
 		(uuid "b2b7b05f-2276-4bee-aab0-ed69cf71b5cd")
 	)
-	(label "USB3_RXDM"
+	(label "USB3_RX_N"
 		(at 87.63 154.94 0)
 		(effects
 			(font
@@ -9322,7 +9544,7 @@
 		)
 		(uuid "b6da3cc9-3db6-4e95-a04d-720841965fde")
 	)
-	(label "USB3_TXDP"
+	(label "USB3_TX_P"
 		(at 87.63 148.59 0)
 		(effects
 			(font
@@ -9346,7 +9568,7 @@
 		)
 		(uuid "bbe9cc56-8175-4693-85af-1a1e8a600d8c")
 	)
-	(label "USB2_DM"
+	(label "USB2_N"
 		(at 87.63 134.62 0)
 		(effects
 			(font
@@ -9370,7 +9592,7 @@
 		)
 		(uuid "c4b141fd-4914-4f26-90b9-28beb4944cf3")
 	)
-	(label "TR3P"
+	(label "TR3_P"
 		(at 48.26 156.21 0)
 		(effects
 			(font
@@ -9394,7 +9616,7 @@
 		)
 		(uuid "cceac82a-afaa-40e8-8482-cd49e31d722d")
 	)
-	(label "USB3_TXDM"
+	(label "USB3_TX_N"
 		(at 87.63 143.51 0)
 		(effects
 			(font
@@ -9406,7 +9628,7 @@
 		)
 		(uuid "de241084-0b68-4c22-a879-bee60ffcefc1")
 	)
-	(label "TR1P"
+	(label "TR1_P"
 		(at 99.06 45.72 0)
 		(effects
 			(font
@@ -9430,7 +9652,7 @@
 		)
 		(uuid "e8c444f7-1f73-4dd4-a65a-ae07d49f0a95")
 	)
-	(label "USB3_RXDM"
+	(label "USB3_RX_N"
 		(at 40.64 63.5 0)
 		(effects
 			(font
@@ -9442,7 +9664,7 @@
 		)
 		(uuid "edea4c2f-f721-4832-9c34-5b99856e97e8")
 	)
-	(label "USB3_TXDP"
+	(label "USB3_TX_P"
 		(at 40.64 53.34 0)
 		(effects
 			(font
@@ -9454,7 +9676,7 @@
 		)
 		(uuid "fc3725d1-74a0-4e4b-bfd3-7d55cd552829")
 	)
-	(label "TR3N"
+	(label "TR3_N"
 		(at 99.06 63.5 0)
 		(effects
 			(font
@@ -13288,7 +13510,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 105.41 148.59 270)
+		(at 102.87 148.59 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13298,7 +13520,7 @@
 		(dnp no)
 		(uuid "41ae32c5-45a8-4720-b08f-f58f0bbed5d7")
 		(property "Reference" "C27"
-			(at 100.33 147.066 90)
+			(at 97.79 149.86 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13309,7 +13531,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 106.934 147.066 90)
+			(at 104.394 149.86 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13320,7 +13542,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 101.6 149.5552 0)
+			(at 99.06 149.5552 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13331,7 +13553,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 148.59 0)
+			(at 102.87 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13342,7 +13564,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 100V Capacitores cerámicos X7R 0805"
-			(at 105.41 148.59 0)
+			(at 102.87 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13353,7 +13575,7 @@
 			)
 		)
 		(property "MPN" "GCM21BR72A104KA37L"
-			(at 105.41 148.59 90)
+			(at 102.87 148.59 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13364,7 +13586,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 105.41 148.59 90)
+			(at 102.87 148.59 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13375,7 +13597,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 105.41 148.59 90)
+			(at 102.87 148.59 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13386,7 +13608,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Murata Electronics"
-			(at 105.41 148.59 90)
+			(at 102.87 148.59 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13397,7 +13619,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 105.41 148.59 90)
+			(at 102.87 148.59 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13408,7 +13630,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 105.41 148.59 90)
+			(at 102.87 148.59 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13419,7 +13641,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 105.41 148.59 90)
+			(at 102.87 148.59 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13430,7 +13652,7 @@
 			)
 		)
 		(property "Digikey Part #" "490-4789-2-ND"
-			(at 105.41 148.59 90)
+			(at 102.87 148.59 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14624,7 +14846,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 251.46 38.1 0)
+		(at 247.65 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14634,7 +14856,7 @@
 		(dnp no)
 		(uuid "52308907-faf4-409a-8355-68069bcf8ff9")
 		(property "Reference" "#PWR06"
-			(at 251.46 41.91 0)
+			(at 247.65 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14645,7 +14867,7 @@
 			)
 		)
 		(property "Value" "VDD12"
-			(at 249.936 34.544 0)
+			(at 247.396 34.544 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14655,7 +14877,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 38.1 0)
+			(at 247.65 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14666,7 +14888,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 38.1 0)
+			(at 247.65 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14677,7 +14899,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 251.46 38.1 0)
+			(at 247.65 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15773,7 +15995,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 251.46 81.28 0)
+		(at 247.65 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15783,7 +16005,7 @@
 		(dnp no)
 		(uuid "5f1f5e77-5154-454c-abc0-1779ddca2632")
 		(property "Reference" "#PWR030"
-			(at 251.46 85.09 0)
+			(at 247.65 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15794,7 +16016,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 252.476 77.47 0)
+			(at 247.396 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15804,7 +16026,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 81.28 0)
+			(at 247.65 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15815,7 +16037,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 81.28 0)
+			(at 247.65 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15826,7 +16048,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 251.46 81.28 0)
+			(at 247.65 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22937,7 +23159,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 251.46 59.69 0)
+		(at 247.65 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22947,7 +23169,7 @@
 		(dnp no)
 		(uuid "bb2e7b47-2af8-4830-9611-eac9d7b756d4")
 		(property "Reference" "#PWR012"
-			(at 251.46 63.5 0)
+			(at 247.65 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22958,7 +23180,7 @@
 			)
 		)
 		(property "Value" "VDD25"
-			(at 251.714 56.134 0)
+			(at 247.904 56.134 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22968,7 +23190,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 59.69 0)
+			(at 247.65 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22979,7 +23201,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 59.69 0)
+			(at 247.65 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22990,7 +23212,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 251.46 59.69 0)
+			(at 247.65 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26826,7 +27048,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 105.41 143.51 270)
+		(at 102.87 143.51 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26836,7 +27058,7 @@
 		(dnp no)
 		(uuid "f2919f19-5d28-42f5-a88c-cdf25430c9ad")
 		(property "Reference" "C26"
-			(at 100.33 141.986 90)
+			(at 97.79 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26847,7 +27069,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 106.934 141.986 90)
+			(at 104.14 144.526 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26858,7 +27080,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 101.6 144.4752 0)
+			(at 99.06 144.4752 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26869,7 +27091,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 143.51 0)
+			(at 102.87 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26880,7 +27102,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 100V Capacitores cerámicos X7R 0805"
-			(at 105.41 143.51 0)
+			(at 102.87 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26891,7 +27113,7 @@
 			)
 		)
 		(property "MPN" "GCM21BR72A104KA37L"
-			(at 105.41 143.51 90)
+			(at 102.87 143.51 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26902,7 +27124,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 105.41 143.51 90)
+			(at 102.87 143.51 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26913,7 +27135,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 105.41 143.51 90)
+			(at 102.87 143.51 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26924,7 +27146,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Murata Electronics"
-			(at 105.41 143.51 90)
+			(at 102.87 143.51 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26935,7 +27157,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 105.41 143.51 90)
+			(at 102.87 143.51 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26946,7 +27168,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 105.41 143.51 90)
+			(at 102.87 143.51 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26957,7 +27179,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 105.41 143.51 90)
+			(at 102.87 143.51 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26968,7 +27190,7 @@
 			)
 		)
 		(property "Digikey Part #" "490-4789-2-ND"
-			(at 105.41 143.51 90)
+			(at 102.87 143.51 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
