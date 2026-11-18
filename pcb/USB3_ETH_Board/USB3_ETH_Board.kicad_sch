@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "USB3_ETH_Board / Replica EVB-LAN7800LC")
-		(date "2026-11-12")
-		(rev "F")
+		(date "2026-11-17")
+		(rev "G")
 		(company "FIUBA - CESE")
 		(comment 1 "License: CERN-OHL-S-2.0")
 		(comment 2 "Diseño de Circuitos Impresos - Trabajo Práctico Final")
@@ -9244,7 +9244,7 @@
 		)
 		(uuid "21c20d46-f0f3-4ab8-a845-a91d6acf8699")
 	)
-	(label "USB3_TX_N"
+	(label "USB3_TX_P"
 		(at 40.64 55.88 0)
 		(effects
 			(font
@@ -9664,7 +9664,7 @@
 		)
 		(uuid "edea4c2f-f721-4832-9c34-5b99856e97e8")
 	)
-	(label "USB3_TX_P"
+	(label "USB3_TX_N"
 		(at 40.64 53.34 0)
 		(effects
 			(font

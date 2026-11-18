@@ -74,6 +74,16 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.8,
+          "width": 0.2182
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.8,
+          "width": 0.2835
         }
       ],
       "drc_exclusions": [],
@@ -214,6 +224,8 @@
       ],
       "track_widths": [
         0.0,
+        0.18,
+        0.2,
         0.25
       ],
       "tuning_pattern_settings": {
@@ -261,7 +273,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "F"
+      "sch_revision": "G"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -517,7 +529,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.25,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -528,11 +540,37 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
+        "track_width": 0.2,
         "tuning_profile": "",
         "via_diameter": 0.7,
         "via_drill": 0.4,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.18,
+        "diff_pair_gap": 0.18,
+        "diff_pair_width": 0.2045,
+        "name": "ETH_MDI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2045,
+        "tuning_profile": "",
+        "via_diameter": 0.7,
+        "via_drill": 0.4
+      },
+      {
+        "clearance": 0.18,
+        "diff_pair_gap": 0.18,
+        "diff_pair_width": 0.2677,
+        "name": "USB3_SS",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2677,
+        "tuning_profile": "",
+        "via_diameter": 0.7,
+        "via_drill": 0.4
       }
     ],
     "meta": {
@@ -540,7 +578,40 @@
     },
     "net_colors": {},
     "netclass_assignments": {},
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "USB3_SS",
+        "pattern": "SSRX"
+      },
+      {
+        "netclass": "USB3_SS",
+        "pattern": "USB3_TX"
+      },
+      {
+        "netclass": "USB3_SS",
+        "pattern": "USB3_RX"
+      },
+      {
+        "netclass": "USB3_SS",
+        "pattern": "USB2"
+      },
+      {
+        "netclass": "ETH_MDI",
+        "pattern": "TR0"
+      },
+      {
+        "netclass": "ETH_MDI",
+        "pattern": "TR1"
+      },
+      {
+        "netclass": "ETH_MDI",
+        "pattern": "TR2"
+      },
+      {
+        "netclass": "ETH_MDI",
+        "pattern": "TR3"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
